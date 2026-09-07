@@ -4,6 +4,7 @@ weight: 20
 browser_title: "Reading Goals: Explore and Decide"
 description: "Browse articles by reading goal: explore ideas, evaluate options, and make decisions."
 layout: article-list
+list: directory
 slots:
   breadcrumb: true
 cascade:
@@ -20,6 +21,3 @@ banyan_taxonomy:
   normalize: lower
   article_mode: all
 ---
-
-
-{{< taxonomy-list >}}

@@ -47,7 +47,7 @@ If this is your first time here, you can start from two places:
 
 - [Library](/all/): field notes on industry shifts and engineering practice—for people to revisit, and for AI to draw on.
 
-- [Products](/products/): tools that have already been productized and are available to try or learn more about.
+- [Products](/all-products/): tools that have already been productized and are available to try or learn more about.
 
 ## Brand and Business Information
 

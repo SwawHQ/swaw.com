@@ -4,6 +4,7 @@ weight: 20
 browser_title: "阅读目的：探索与决策"
 description: "按阅读目的浏览文章：探索想法、评估方案并辅助决策。"
 layout: article-list
+list: directory
 slots:
   breadcrumb: true
 cascade:
@@ -20,6 +21,3 @@ banyan_taxonomy:
   normalize: lower
   article_mode: all
 ---
-
-
-{{< taxonomy-list >}}

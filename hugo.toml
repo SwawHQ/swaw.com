@@ -41,6 +41,7 @@ pagerSize = 30
 [taxonomies]
 intent = "intent"
 tag = "tags"
+product = "products"
 # udc = "udc"
 # category = "categories"
 # author = "authors"

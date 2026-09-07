@@ -4,6 +4,7 @@ weight: 30
 browser_title: "Topics and Tags"
 description: "Browse articles by topic, from AI and developer tooling to Windows and WSL."
 layout: article-list
+list: directory
 slots:
   breadcrumb: true
 cascade:
@@ -23,7 +24,3 @@ banyan_taxonomy:
   unassigned_term: untagged
   unassigned_label: --untagged--
 ---
-
-
-
-{{< taxonomy-list >}}

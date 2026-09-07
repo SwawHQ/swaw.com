@@ -11,11 +11,10 @@ intent:
  - decide
 tags:
  - tooling/devtools/windows
-product:
-  origin: first-party
-  price:
-    amount: 0
-    currency: $
+products: [free, first-party]
+offer:
+  amount: 0
+  currency: "$"
   value: "專案級免安裝開發環境"
 ---
 

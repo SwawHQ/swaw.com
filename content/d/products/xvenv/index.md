@@ -11,11 +11,10 @@ intent:
  - decide
 tags:
  - tooling/devtools/windows
-product:
-  origin: first-party
-  price:
-    amount: 0
-    currency: $
+products: [free, first-party]
+offer:
+  amount: 0
+  currency: "$"
   value: "Project-scoped portable development environments"
 ---
 
