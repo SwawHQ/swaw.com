@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   readiness, and cleanup decisions.
 
 ### Changed
+- Pointed product navigation and about-page links to the new all-products view;
+  added permanent multilingual redirects from the previous product category URLs.
 - Grouped about, changelog, and WeChat pages under `content/site/`, preserving
   their public URLs and content while updating navigation, footer, and sitemap references.
 - Removed the root `content/d/test/` page so test/demo copy no longer lives in

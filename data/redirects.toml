@@ -31,3 +31,124 @@ status = 301
 source = "/zh-tw/p/wsl-automng/"
 destination = "/zh-tw/p/swaw-kit-wsl-release/"
 status = 301
+
+# Product views now have sibling price and origin categories.
+[[rules]]
+source = "/products/first-party/free"
+destination = "/product-categories/free/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/free/"
+destination = "/product-categories/free/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/paid"
+destination = "/product-categories/paid/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/paid/"
+destination = "/product-categories/paid/"
+status = 301
+
+[[rules]]
+source = "/products/first-party"
+destination = "/product-categories/first-party/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/"
+destination = "/product-categories/first-party/"
+status = 301
+
+[[rules]]
+source = "/products/third-party"
+destination = "/product-categories/third-party/"
+status = 301
+
+[[rules]]
+source = "/products/third-party/"
+destination = "/product-categories/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/free"
+destination = "/zh/product-categories/free/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/free/"
+destination = "/zh/product-categories/free/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/paid"
+destination = "/zh/product-categories/paid/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/paid/"
+destination = "/zh/product-categories/paid/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party"
+destination = "/zh/product-categories/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/"
+destination = "/zh/product-categories/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh/products/third-party"
+destination = "/zh/product-categories/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh/products/third-party/"
+destination = "/zh/product-categories/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/free"
+destination = "/zh-tw/product-categories/free/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/free/"
+destination = "/zh-tw/product-categories/free/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/paid"
+destination = "/zh-tw/product-categories/paid/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/paid/"
+destination = "/zh-tw/product-categories/paid/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party"
+destination = "/zh-tw/product-categories/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/"
+destination = "/zh-tw/product-categories/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/third-party"
+destination = "/zh-tw/product-categories/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/third-party/"
+destination = "/zh-tw/product-categories/third-party/"
+status = 301

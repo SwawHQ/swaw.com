@@ -2,7 +2,8 @@
 
 Current as of 2026-06-11.
 
-Site information paths updated on 2026-09-07; public page URLs are preserved.
+Site information and product-view paths updated on 2026-09-07. Article URLs are
+preserved; former product category URLs have permanent redirects.
 
 This document tracks root-site content ownership and readiness. Banyan theme
 behavior lives under `themes/banyan/`; this file is for swaw.com business
@@ -34,7 +35,8 @@ content, site identity, and editorial cleanup decisions.
 | --- | --- | --- | --- |
 | Intent taxonomy | `content/intent/` | Keep | Site-owned cognitive taxonomy. |
 | Tags taxonomy | `content/tags/` | Keep | Site-owned topic taxonomy. |
-| Product section | `content/d/products/` | Keep | Product-facing content root. |
+| Product section | `content/d/products/` | Keep | Product articles remain here; each product has one content bundle. |
+| Product views | `themes/banyan/content/products/`, `themes/banyan/content/product-categories/` | Keep | Theme-provided all-products root and sibling price/origin category views. |
 | WSL section | `content/d/wsl/` | Keep | WSL knowledge cluster. |
 
 ## Core Content Assets
