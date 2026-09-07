@@ -18,8 +18,6 @@ changelog:
   release_notes: "Release notes"
   release_notes_fallback: "Detailed release notes are still being organized. For now, this page keeps the deployed build and its source information verifiable."
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 build:
   list: local

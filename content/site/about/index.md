@@ -5,12 +5,9 @@ slug: about
 url: about/
 weight: 10
 linkTitle: About
-nav_primary: about
 type: page
 layout: article-page
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 build:
   list: local

@@ -9,7 +9,6 @@ share_image: swaw-kit-wsl-release-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/jxHq3Ie9BmSgza1mHoHncA
-nav_primary: signals
 intent:
  - explore
 tags:

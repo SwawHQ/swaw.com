@@ -6,7 +6,6 @@ linkTitle: "Run Custom Commands from Win + R"
 slug: "win-run-custom-command-path"
 description: "Use two small scripts to add or remove one toolbox directory from your user PATH, making your own .cmd, .bat, and .exe tools available from Win + R."
 share_image: win-run-custom-command-path-en-share.png
-nav_primary: signals
 intent:
  - explore
 tags:

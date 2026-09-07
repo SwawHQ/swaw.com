@@ -12,7 +12,6 @@ share_image: wsl-guide-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/Wd7woZa6jD8hIaqir8tK4w
-nav_primary: signals
 intent:
  - explore
 tags:

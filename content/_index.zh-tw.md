@@ -3,7 +3,6 @@ title: Swaw
 browser_title: "Swaw — 一人工作室的 AI 駕駛艙"
 description: 一人工作室的 AI 駕駛艙。
 share_image: swaw-share.jpg
-nav_primary: home
 type: frameworks
 layout: home-brand
 brand_line: 看清什麼真正有效
@@ -35,7 +34,5 @@ home_wind_field_start_offset_rem: 0
 home_signal_drift_seconds: 90
 home_signal_launch_gap_seconds: 3
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 ---

@@ -6,7 +6,6 @@ linkTitle: "One-Command WSL Toolkit"
 slug: "swaw-kit-wsl-release"
 description: "Bind one command script to each WSL instance for keep-alive, backups, restores, migration, SSH, systemd, and port forwarding—usable by people and AI agents."
 share_image: swaw-kit-wsl-release-en-share.png
-nav_primary: signals
 intent:
  - explore
 tags:

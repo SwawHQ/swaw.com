@@ -5,7 +5,6 @@ title: "Windows RDP 用戶端入口"
 linkTitle: "RDP 多帳號入口"
 slug: "swaw-kit-rdp-client"
 description: "繁體中文翻譯準備中。"
-nav_primary: signals
 intent:
  - explore
 tags:

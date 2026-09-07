@@ -9,7 +9,6 @@ share_image: loop-engineering-digital-life-origin-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/YTB6FR95SOEmir_vObXZBA
-nav_primary: signals
 intent:
  - explore
 tags:

@@ -9,7 +9,6 @@ aliases:
  - /p/wsl-practical/
 description: "Install and manage WSL on Windows 10/11: versions, instances, backup and restore, migration, mirrored networking, offline setup, systemd, and common settings."
 share_image: wsl-guide-en-share.png
-nav_primary: signals
 intent:
  - explore
 tags:

@@ -8,7 +8,6 @@ description: "从 Anthropic Skills 出发，提出 CoSkill：一种人类和 age
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/QaSxCRg-Vq9Pi02nTqGSog
-nav_primary: signals
 intent:
  - explore
 tags:
