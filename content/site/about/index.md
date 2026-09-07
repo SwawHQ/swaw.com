@@ -2,6 +2,9 @@
 title: About Swaw
 description: "Learn how Swaw builds maintainable AI workflows, developer tools, and practical guides for one-person studios."
 slug: about
+url: about/
+weight: 10
+linkTitle: About
 nav_primary: about
 type: page
 layout: article-page
@@ -10,7 +13,7 @@ slots:
   utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 build:
-  list: never
+  list: local
 ---
 
 

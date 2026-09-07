@@ -16,7 +16,7 @@ nav:
     - page: /all
       key: signals
       text: 文库
-    - page: /about
+    - page: /site/about
       key: about
       text: 关于
 ---

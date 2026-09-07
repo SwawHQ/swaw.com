@@ -31,7 +31,7 @@ mode = "enable"
 mode = "enable"
 
 [params.sitemap]
-include_pages = ["/about", "/changelog", "/wechat"]
+include_pages = ["/site/about", "/site/changelog", "/site/wechat"]
 
 [frontmatter]
 lastmod = ["lastmod", ":git", ":default"]

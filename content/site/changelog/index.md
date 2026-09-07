@@ -2,6 +2,8 @@
 title: "Changelog"
 description: "Review the currently deployed Swaw build, source revision, and available release information."
 slug: "changelog"
+url: changelog/
+weight: 20
 type: "page"
 layout: "article-page"
 changelog:
@@ -20,7 +22,7 @@ slots:
   utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 build:
-  list: "never"
+  list: local
 ---
 
 {{< changelog-fallback >}}

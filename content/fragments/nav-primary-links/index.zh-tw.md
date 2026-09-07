@@ -16,7 +16,7 @@ nav:
     - page: /all
       key: signals
       text: 文庫
-    - page: /about
+    - page: /site/about
       key: about
       text: 關於
 ---

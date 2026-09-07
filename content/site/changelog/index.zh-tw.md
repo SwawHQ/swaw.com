@@ -2,6 +2,8 @@
 title: "更新記錄"
 description: "查看 Swaw 目前部署版本、原始碼修訂與可用的發布資訊。"
 slug: "changelog"
+url: changelog/
+weight: 20
 type: "page"
 layout: "article-page"
 changelog:
@@ -20,7 +22,7 @@ slots:
   utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 build:
-  list: "never"
+  list: local
 ---
 
 {{< changelog-fallback >}}

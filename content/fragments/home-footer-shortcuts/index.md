@@ -11,6 +11,6 @@ footer:
   github_href: https://github.com/swawai
   github_label: GitHub
   wechat_label: WeChat
-  wechat_page: /wechat
+  wechat_page: /site/wechat
   icp_prefix: 粤
 ---

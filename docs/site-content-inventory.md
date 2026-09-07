@@ -2,6 +2,8 @@
 
 Current as of 2026-06-11.
 
+Site information paths updated on 2026-09-07; public page URLs are preserved.
+
 This document tracks root-site content ownership and readiness. Banyan theme
 behavior lives under `themes/banyan/`; this file is for swaw.com business
 content, site identity, and editorial cleanup decisions.
@@ -18,8 +20,10 @@ content, site identity, and editorial cleanup decisions.
 | Area | Paths | Status | Notes |
 | --- | --- | --- | --- |
 | Home | `content/_index.*.md` | Keep | Site landing copy. |
-| About | `content/about/index.*.md` | Keep | Site identity and contact surface. |
-| WeChat | `content/wechat/index.*.md` | Keep | Ecosystem/contact handoff page. |
+| Site index | `themes/banyan/content/site/_index.*.md` | Keep | Theme-provided index of site information pages. |
+| About | `content/site/about/index.*.md` | Keep | Site identity and contact surface; public `/about/` URLs preserved. |
+| Changelog | `content/site/changelog/index.*.md` | Keep | Build and release information; public `/changelog/` URLs preserved. |
+| WeChat | `content/site/wechat/index.*.md` | Keep | Ecosystem/contact handoff page; public `/wechat/` URLs preserved. |
 | Site metadata | `content/fragments/site-meta/` | Keep | SEO, source links, and site metadata. |
 | Primary nav | `content/fragments/nav-primary-links/` | Keep | Site-owned navigation copy. |
 | Footer shortcuts | `content/fragments/home-footer-shortcuts/` | Keep | Site-owned footer shortcuts. |

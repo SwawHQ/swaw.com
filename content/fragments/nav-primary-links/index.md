@@ -16,7 +16,7 @@ nav:
     - page: /all
       key: signals
       text: Library
-    - page: /about
+    - page: /site/about
       key: about
       text: About
 ---

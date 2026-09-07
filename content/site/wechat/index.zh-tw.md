@@ -2,6 +2,9 @@
 title: Swaw 微信公眾號「何與生」與「AI 駕駛艙」技術交流群
 description: Swaw 微信公眾號「何與生」與「AI 駕駛艙」技術交流群入口 QR Code。
 slug: wechat
+url: wechat/
+weight: 30
+linkTitle: 微信
 type: page
 layout: article-page
 slots:
@@ -9,7 +12,7 @@ slots:
   utilities: /fragments/nav-utilities
   footer: /fragments/home-footer-shortcuts
 build:
-  list: never
+  list: local
 ---
 
 ## Swaw 微信公眾號「何與生」
