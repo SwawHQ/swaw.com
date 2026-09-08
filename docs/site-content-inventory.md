@@ -22,7 +22,7 @@ content, site identity, and editorial cleanup decisions.
 | --- | --- | --- | --- |
 | Home | `content/_index.*.md` | Keep | Site landing copy. |
 | Site index | `themes/banyan/content/site/_index.*.md` | Keep | Theme-provided index of site information pages. |
-| About | `content/site/about/index.*.md` | Keep | Site identity and contact surface; public `/about/` URLs preserved. |
+| About | `content/about/index*.md` | Keep | Ordinary root entry for site identity; public `/about/` URLs preserved. |
 | Changelog | `content/site/changelog/index.*.md` | Keep | Build and release information; public `/changelog/` URLs preserved. |
 | WeChat | `content/site/wechat/index.*.md` | Keep | Ecosystem/contact handoff page; public `/wechat/` URLs preserved. |
 | Site metadata | `content/fragments/site-meta/` | Keep | SEO, source links, and site metadata. |

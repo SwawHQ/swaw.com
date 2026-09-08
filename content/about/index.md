@@ -3,7 +3,7 @@ title: About Swaw
 description: "Learn how Swaw builds maintainable AI workflows, developer tools, and practical guides for one-person studios."
 slug: about
 url: about/
-weight: 10
+weight: 95
 linkTitle: About
 type: page
 layout: article-page

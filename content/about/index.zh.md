@@ -3,7 +3,7 @@ title: 关于Swaw
 description: "了解 Swaw 如何为一人工作室构建可维护的 AI 工作流、开发工具与实践指南。"
 slug: about
 url: about/
-weight: 10
+weight: 95
 linkTitle: 关于
 type: page
 layout: article-page
