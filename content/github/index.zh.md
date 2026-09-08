@@ -1,4 +1,5 @@
 ---
+root_nav: true
 title: GitHub
 description: 访问 Swaw 的 GitHub 组织账号。
 date: 2026-09-08

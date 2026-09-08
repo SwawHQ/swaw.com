@@ -1,4 +1,5 @@
 ---
+root_nav: true
 title: Swaw
 linkTitle: "2026 Swaw"
 icon: { text: "©" }

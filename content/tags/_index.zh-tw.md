@@ -1,6 +1,8 @@
 ﻿---
+root_nav: true
 title: 標籤
-weight: 30
+linkTitle: 文章 - 分類
+weight: 20
 browser_title: "文章主題與標籤"
 description: "按主題瀏覽文章，涵蓋 AI、開發工具、Windows 與 WSL。"
 layout: article-list

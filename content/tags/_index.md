@@ -1,6 +1,8 @@
 ﻿---
+root_nav: true
 title: Tags
-weight: 30
+linkTitle: Articles - Categories
+weight: 20
 browser_title: "Topics and Tags"
 description: "Browse articles by topic, from AI and developer tooling to Windows and WSL."
 layout: article-list

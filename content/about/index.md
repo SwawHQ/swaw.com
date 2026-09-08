@@ -1,4 +1,5 @@
 ---
+root_nav: true
 title: About Swaw
 description: "Learn how Swaw builds maintainable AI workflows, developer tools, and practical guides for one-person studios."
 slug: about

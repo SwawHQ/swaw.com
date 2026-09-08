@@ -1,4 +1,5 @@
 ---
+root_nav: true
 title: 關於Swaw
 description: "了解 Swaw 如何為一人工作室構建可維護的 AI 工作流程、開發工具與實踐指南。"
 slug: about

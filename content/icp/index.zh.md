@@ -1,4 +1,5 @@
 ---
+root_nav: true
 title: ICP备案
 linkTitle: "粤ICP备2024338434号"
 weight: 105

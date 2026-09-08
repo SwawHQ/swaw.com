@@ -1,4 +1,5 @@
 ---
+root_nav: true
 title: GitHub
 description: Visit Swaw's GitHub organization.
 date: 2026-09-08
