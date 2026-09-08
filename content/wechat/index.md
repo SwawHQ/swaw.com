@@ -3,7 +3,8 @@ title: "Swaw on WeChat: 何与生 and the AI Cockpit Technical Group"
 description: "Follow the Swaw WeChat official account \"何与生\" or join the \"AI Cockpit\" technical exchange group."
 slug: wechat
 url: wechat/
-weight: 30
+weight: 101
+icon: wechat
 linkTitle: WeChat
 type: page
 layout: article-page

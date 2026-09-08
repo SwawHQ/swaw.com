@@ -3,7 +3,8 @@ title: Swaw 微信公众号「何与生」与「AI 驾驶舱」技术交流群
 description: Swaw 微信公众号「何与生」与「AI 驾驶舱」技术交流群入口二维码。
 slug: wechat
 url: wechat/
-weight: 30
+weight: 101
+icon: wechat
 linkTitle: 微信
 type: page
 layout: article-page
