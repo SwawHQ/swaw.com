@@ -19,6 +19,6 @@ slots:
 
 站点域名：**swaw.com**
 
-备案号：**[粤ICP备2024338434号](https://beian.miit.gov.cn/)**
+备案号：**{{< new-tab href="https://beian.miit.gov.cn/" >}}粤ICP备2024338434号{{< /new-tab >}}**
 
-[前往工信部备案查询网站](https://beian.miit.gov.cn/)
+{{< new-tab href="https://beian.miit.gov.cn/" >}}前往工信部备案查询网站{{< /new-tab >}}

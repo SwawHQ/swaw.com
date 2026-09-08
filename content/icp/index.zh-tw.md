@@ -19,6 +19,6 @@ slots:
 
 站點網域：**swaw.com**
 
-備案號：**[粤ICP备2024338434号](https://beian.miit.gov.cn/)**
+備案號：**{{< new-tab href="https://beian.miit.gov.cn/" >}}粤ICP备2024338434号{{< /new-tab >}}**
 
-[前往工信部備案查詢網站](https://beian.miit.gov.cn/)
+{{< new-tab href="https://beian.miit.gov.cn/" >}}前往工信部備案查詢網站{{< /new-tab >}}

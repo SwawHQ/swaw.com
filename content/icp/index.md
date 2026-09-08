@@ -19,6 +19,6 @@ slots:
 
 Site domain: **swaw.com**
 
-ICP filing number: **[粤ICP备2024338434号](https://beian.miit.gov.cn/)**
+ICP filing number: **{{< new-tab href="https://beian.miit.gov.cn/" >}}粤ICP备2024338434号{{< /new-tab >}}**
 
-[Open the MIIT filing query website](https://beian.miit.gov.cn/)
+{{< new-tab href="https://beian.miit.gov.cn/" >}}Open the MIIT filing query website{{< /new-tab >}}
