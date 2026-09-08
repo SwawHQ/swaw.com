@@ -1,5 +1,8 @@
 ---
 title: Swaw
+linkTitle: "2026 Swaw"
+icon: { text: "©" }
+weight: 5
 browser_title: "Swaw — The AI Cockpit for One-Person Studios"
 description: The AI cockpit for one-person studios.
 share_image: swaw-share.jpg
@@ -33,6 +36,4 @@ home_signal_guide_chance: 0
 home_wind_field_start_offset_rem: 0
 home_signal_drift_seconds: 90
 home_signal_launch_gap_seconds: 3
-slots:
-  footer: /fragments/home-footer-shortcuts
 ---

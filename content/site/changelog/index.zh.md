@@ -19,7 +19,6 @@ changelog:
   release_notes_fallback: "详细发布说明仍在整理；当前先保留可验证的部署版本与来源信息。"
 slots:
   breadcrumb: true
-  footer: /fragments/home-footer-shortcuts
 build:
   list: local
 ---

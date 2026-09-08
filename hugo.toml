@@ -78,7 +78,7 @@ languageName = "English"
 weight = 1
 [languages.en.params]
 locale = "en_US"
-icon_text = "EN"
+icon = { text = "EN" }
 
 [languages.zh]
 languageName = "中文"
@@ -86,7 +86,7 @@ weight = 2
 
 [languages.zh.params]
 locale = "zh_CN"
-icon_text = "简"
+icon = { text = "简" }
 
 [languages.zh-tw]
 languageName = "繁體"
@@ -94,7 +94,7 @@ weight = 3
 
 [languages.zh-tw.params]
 locale = "zh_TW"
-icon_text = "繁"
+icon = { text = "繁" }
 
 [permalinks]
 
