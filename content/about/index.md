@@ -8,7 +8,7 @@ weight: 95
 linkTitle: About
 type: page
 layout: article-page
-icon: { image: "site/brand/lib/bornwhy.svg" }
+icon: { image: "site/pwa/favicon.svg" }
 slots:
   breadcrumb: true
 build:
