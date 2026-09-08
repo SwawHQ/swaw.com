@@ -18,6 +18,7 @@ changelog:
   release_notes: "發布說明"
   release_notes_fallback: "詳細發布說明仍在整理；目前先保留可驗證的部署版本與來源資訊。"
 slots:
+  breadcrumb: true
   footer: /fragments/home-footer-shortcuts
 build:
   list: local

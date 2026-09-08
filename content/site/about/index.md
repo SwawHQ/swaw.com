@@ -8,6 +8,7 @@ linkTitle: About
 type: page
 layout: article-page
 slots:
+  breadcrumb: true
   footer: /fragments/home-footer-shortcuts
 build:
   list: local
