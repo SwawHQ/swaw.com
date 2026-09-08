@@ -7,6 +7,7 @@ weight: 10
 linkTitle: About
 type: page
 layout: article-page
+icon: { image: "site/brand/lib/bornwhy.svg" }
 slots:
   breadcrumb: true
 build:
