@@ -1,6 +1,6 @@
 ---
 title: GitHub
-description: 查看 Swaw 在 GitHub 上的公開專案。
+description: 造訪 Swaw 的 GitHub 組織帳號及作者的個人帳號。
 date: 2026-09-08
 slug: github
 type: page
@@ -15,6 +15,9 @@ slots:
   breadcrumb: true
 ---
 
-透過 Swaw 的 GitHub 主頁，可以瀏覽公開專案和原始碼。
+透過組織帳號了解 Swaw 的開源專案，也可以透過個人帳號關注作者。
 
-[開啟 Swaw 的 GitHub 主頁](https://github.com/swawai)
+| 頭像 | 帳號 | 介紹 |
+| --- | --- | --- |
+| [{{< asset src="site/brand/favicon.svg" alt="SwawHQ 頭像" width="64" height="64" >}}](https://github.com/SwawHQ) | [**SwawHQ**](https://github.com/SwawHQ) | Swaw 的組織帳號，用於發佈與維護品牌旗下的開源專案。 |
+| [{{< asset src="site/brand/bornwhy.svg" alt="bornwhy 頭像" width="64" height="64" >}}](https://github.com/bornwhy) | [**bornwhy**](https://github.com/bornwhy) | 作者的個人帳號，用於個人探索、開源貢獻與交流。 |

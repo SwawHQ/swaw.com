@@ -65,7 +65,7 @@ Swaw 不是憑空想出來的產品概念，而是我先為自己搭建工作系
 ## 聯絡方式
 
 X：[@iddibi](https://x.com/iddibi)  
-GitHub：[swawai](https://github.com/swawai)  
+GitHub：[SwawHQ（組織）](https://github.com/SwawHQ) · [bornwhy（個人）](https://github.com/bornwhy)  
 Email：[hello@swaw.com](mailto:hello@swaw.com)  
 微信公眾號：掃描下方 QR Code
 
