@@ -1,5 +1,7 @@
 ---
 title: ICP Filing
+linkTitle: "ICP备2024338434号"
+weight: 120
 description: View the site's ICP filing information.
 date: 2026-09-08
 slug: icp

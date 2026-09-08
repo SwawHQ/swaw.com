@@ -2,7 +2,7 @@
 title: Swaw
 linkTitle: "2026 Swaw"
 icon: { text: "©" }
-weight: 5
+weight: 110
 browser_title: "Swaw — The AI Cockpit for One-Person Studios"
 description: The AI cockpit for one-person studios.
 share_image: swaw-share.jpg
