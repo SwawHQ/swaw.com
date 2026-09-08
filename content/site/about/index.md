@@ -65,7 +65,7 @@ The two entities are mainly used for payments and business operations in differe
 ## Contact
 
 X: [@iddibi](https://x.com/iddibi)  
-GitHub: [SwawHQ (organization)](https://github.com/SwawHQ) · [bornwhy (personal)](https://github.com/bornwhy)  
+GitHub: [SwawHQ](https://github.com/SwawHQ)  
 Email: [hello@swaw.com](mailto:hello@swaw.com)  
 WeChat Official Account: scan the QR code below  
 
