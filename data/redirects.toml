@@ -243,3 +243,64 @@ status = 301
 source = "/zh-tw/product-categories/third-party/"
 destination = "/zh-tw/products/third-party/"
 status = 301
+
+# Updates now owns the former PWA and site entry pages.
+[[rules]]
+source = "/pwa"
+destination = "/updates/check/"
+status = 301
+
+[[rules]]
+source = "/pwa/"
+destination = "/updates/check/"
+status = 301
+
+[[rules]]
+source = "/site"
+destination = "/updates/"
+status = 301
+
+[[rules]]
+source = "/site/"
+destination = "/updates/"
+status = 301
+
+[[rules]]
+source = "/zh/pwa"
+destination = "/zh/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh/pwa/"
+destination = "/zh/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh/site"
+destination = "/zh/updates/"
+status = 301
+
+[[rules]]
+source = "/zh/site/"
+destination = "/zh/updates/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/pwa"
+destination = "/zh-tw/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/pwa/"
+destination = "/zh-tw/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/site"
+destination = "/zh-tw/updates/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/site/"
+destination = "/zh-tw/updates/"
+status = 301
