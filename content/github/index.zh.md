@@ -15,6 +15,6 @@ slots:
   breadcrumb: true
 ---
 
-{{< new-tab href="https://github.com/SwawHQ" >}}{{< asset src="site/brand/favicon.svg" alt="SwawHQ 头像" width="64" height="64" >}}{{< /new-tab >}}
+{{< new-tab href="https://github.com/SwawHQ" >}}{{< asset src="site/pwa/favicon.svg" alt="SwawHQ 头像" width="64" height="48" >}}{{< /new-tab >}}
 
 {{< new-tab href="https://github.com/SwawHQ" >}}github.com/SwawHQ{{< /new-tab >}}
