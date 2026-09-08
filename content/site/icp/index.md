@@ -5,7 +5,7 @@ date: 2026-09-08
 slug: icp
 type: page
 layout: article-page
-icon: info
+icon: { text: "粤" }
 outputs:
   - HTML
 build:
