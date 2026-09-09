@@ -12,7 +12,7 @@ brand_line: 看清什麼真正有效
 home_signals:
   - codex
   - name: github
-    url: https://github.com/swawai
+    url: https://github.com/SwawHQ
     primary: true
   - X
   - gemini

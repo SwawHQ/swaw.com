@@ -1,9 +1,10 @@
 # Swaw Site Content Inventory
 
-Current as of 2026-06-11.
+Current as of 2026-09-09.
 
-Site information and product-view paths updated on 2026-09-07. Article URLs are
-preserved; former product category URLs have permanent redirects.
+Root navigation, site information, update pages, and product-view paths reflect
+the flattened content model. Article URLs are preserved; retired site, PWA, and
+product-category URLs have permanent redirects.
 
 This document tracks root-site content ownership and readiness. Banyan theme
 behavior lives under `themes/banyan/`; this file is for swaw.com business
@@ -20,14 +21,14 @@ content, site identity, and editorial cleanup decisions.
 
 | Area | Paths | Status | Notes |
 | --- | --- | --- | --- |
-| Home | `content/_index.*.md` | Keep | Site landing copy. |
-| Site index | `themes/banyan/content/site/_index.*.md` | Keep | Theme-provided index of site information pages. |
-| About | `content/about/index*.md` | Keep | Ordinary root entry for site identity; public `/about/` URLs preserved. |
-| Changelog | `content/site/changelog/index.*.md` | Keep | Build and release information; public `/changelog/` URLs preserved. |
-| WeChat | `content/site/wechat/index.*.md` | Keep | Ecosystem/contact handoff page; public `/wechat/` URLs preserved. |
+| Home | `content/_index*.md` | Keep | Site landing copy and ordinary root entry. |
+| About | `content/about/index*.md` | Keep | Root entry for site identity; public `/about/` URLs preserved. |
+| Updates | `content/updates/`, `themes/banyan/content/updates/` | Keep | Root entry with real check and changelog children; changelog keeps public `/changelog/`. |
+| WeChat | `content/wechat/index*.md` | Keep | Root contact handoff page; public `/wechat/` URLs preserved. |
+| GitHub | `content/github/index*.md` | Keep | Root page for the SwawHQ organization. |
+| RSS | `content/rss/index*.md` | Keep | Root page that resolves the current-language feed. |
+| ICP | `content/icp/index*.md` | Keep | Site-owned legal root page. |
 | Site metadata | `content/fragments/site-meta/` | Keep | SEO, source links, and site metadata. |
-| Primary nav | `content/fragments/nav-primary-links/` | Keep | Site-owned navigation copy. |
-| Footer shortcuts | `content/fragments/home-footer-shortcuts/` | Keep | Site-owned footer shortcuts. |
 
 ## Information Architecture
 
@@ -36,7 +37,8 @@ content, site identity, and editorial cleanup decisions.
 | Intent taxonomy | `content/intent/` | Keep | Site-owned cognitive taxonomy. |
 | Tags taxonomy | `content/tags/` | Keep | Site-owned topic taxonomy. |
 | Product section | `content/d/products/` | Keep | Product articles remain here; each product has one content bundle. |
-| Product views | `themes/banyan/content/products/`, `themes/banyan/content/product-categories/` | Keep | Theme-provided all-products root and sibling price/origin category views. |
+| Product views | `themes/banyan/content/products/`, `themes/banyan/content/all-products/` | Keep | Theme-provided taxonomy and deduplicated all-products views. Retired `/product-categories/` paths redirect. |
+| Article views | `themes/banyan/content/all/`, `themes/banyan/content/d/` | Keep | All-article view plus hidden directory exploration root. |
 | WSL section | `content/d/wsl/` | Keep | WSL knowledge cluster. |
 
 ## Core Content Assets
