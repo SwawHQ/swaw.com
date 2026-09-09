@@ -7,7 +7,7 @@ weight: 110
 browser_title: "Swaw — 一人工作室的 AI 驾驶舱"
 description: 一人工作室的 AI 驾驶舱
 share_image: swaw-share.jpg
-layout: home-brand
+layout: page-home
 brand_line: 看清什么真正有效
 home_signals:
   - codex

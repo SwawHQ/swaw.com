@@ -5,14 +5,14 @@ linkTitle: Articles - Categories
 weight: 20
 browser_title: "Topics and Tags"
 description: "Browse articles by topic, from AI and developer tooling to Windows and WSL."
-layout: collection-page
+layout: page-collection
 list: directory
 slots:
   breadcrumb: true
 cascade:
   - target:
       kind: term
-    layout: collection-page
+    layout: page-collection
     slots:
       breadcrumb: true
 banyan_taxonomy:

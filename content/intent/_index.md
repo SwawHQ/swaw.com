@@ -3,14 +3,14 @@ title: Reading Goals
 weight: 20
 browser_title: "Reading Goals: Explore and Decide"
 description: "Browse articles by reading goal: explore ideas, evaluate options, and make decisions."
-layout: collection-page
+layout: page-collection
 list: directory
 slots:
   breadcrumb: true
 cascade:
   - target:
       kind: term
-    layout: collection-page
+    layout: page-collection
     slots:
       breadcrumb: true
 banyan_taxonomy:

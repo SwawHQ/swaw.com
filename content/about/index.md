@@ -6,7 +6,7 @@ slug: about
 url: about/
 weight: 95
 linkTitle: About
-layout: article-page
+layout: page-article
 icon: { image: "site/pwa/favicon.svg", monochrome: true }
 slots:
   breadcrumb: true

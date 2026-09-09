@@ -7,7 +7,7 @@ weight: 110
 browser_title: "Swaw — The AI Cockpit for One-Person Studios"
 description: The AI cockpit for one-person studios.
 share_image: swaw-share.jpg
-layout: home-brand
+layout: page-home
 brand_line: See What Actually Works
 home_signals:
   - codex

@@ -6,7 +6,7 @@ weight: 105
 description: 查看本站的 ICP 备案信息。
 date: 2026-09-08
 slug: icp
-layout: article-page
+layout: page-article
 icon: { image: "0.webp" }
 outputs:
   - HTML

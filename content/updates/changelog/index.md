@@ -4,7 +4,7 @@ description: "Review the currently deployed Swaw build, source revision, and ava
 slug: "changelog"
 url: changelog/
 weight: 20
-layout: "article-page"
+layout: "page-article"
 changelog:
   intro: "Swaw's automatic changelog shows the currently deployed build, build time, and available source information."
   current_build: "Current build"

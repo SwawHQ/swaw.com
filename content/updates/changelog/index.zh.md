@@ -4,7 +4,7 @@ description: "查看 Swaw 当前部署版本、源码修订与可用的发布信
 slug: "changelog"
 url: changelog/
 weight: 20
-layout: "article-page"
+layout: "page-article"
 changelog:
   intro: "Swaw 的自动更新记录，展示当前部署版本、构建时间和可用的源码信息。"
   current_build: "当前构建"

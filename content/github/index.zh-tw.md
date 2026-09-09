@@ -4,7 +4,7 @@ title: GitHub
 description: 造訪 Swaw 的 GitHub 組織帳號。
 date: 2026-09-08
 slug: github
-layout: article-page
+layout: page-article
 icon: github
 weight: 102
 outputs:
