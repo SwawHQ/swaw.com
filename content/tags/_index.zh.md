@@ -5,14 +5,14 @@ linkTitle: 文章 - 分类
 weight: 20
 browser_title: "文章主题与标签"
 description: "按主题浏览文章，涵盖 AI、开发工具、Windows 与 WSL。"
-layout: article-list
+layout: collection-page
 list: directory
 slots:
   breadcrumb: true
 cascade:
   - target:
       kind: term
-    layout: article-list
+    layout: collection-page
     slots:
       breadcrumb: true
 banyan_taxonomy:
