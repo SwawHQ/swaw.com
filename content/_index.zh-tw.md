@@ -3,7 +3,7 @@ root_nav: true
 title: Swaw
 linkTitle: "2026 Swaw"
 icon: { text: "©" }
-weight: 5
+weight: 110
 browser_title: "Swaw — 一人工作室的 AI 駕駛艙"
 description: 一人工作室的 AI 駕駛艙。
 share_image: swaw-share.jpg
