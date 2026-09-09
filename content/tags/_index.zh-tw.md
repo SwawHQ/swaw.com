@@ -10,15 +10,13 @@ list: directory
 slots:
   breadcrumb: true
 cascade:
-  - _target:
+  - target:
       kind: term
     layout: article-list
     slots:
       breadcrumb: true
 banyan_taxonomy:
   mode: tree
-  show_in_home: true
-  home_weight: 30
   article_weight: 30
   normalize: lower
   article_mode: deepest_by_root

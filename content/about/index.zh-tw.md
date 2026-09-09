@@ -6,7 +6,6 @@ slug: about
 url: about/
 weight: 95
 linkTitle: 關於
-type: page
 layout: article-page
 icon: { image: "site/pwa/favicon.svg", monochrome: true }
 slots:

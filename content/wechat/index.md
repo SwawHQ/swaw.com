@@ -7,7 +7,6 @@ url: wechat/
 weight: 101
 icon: wechat
 linkTitle: WeChat
-type: page
 layout: article-page
 slots:
   breadcrumb: true

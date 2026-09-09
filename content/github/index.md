@@ -4,7 +4,6 @@ title: GitHub
 description: Visit Swaw's GitHub organization.
 date: 2026-09-08
 slug: github
-type: page
 layout: article-page
 icon: github
 weight: 102

@@ -6,7 +6,6 @@ weight: 105
 description: View the site's ICP filing information.
 date: 2026-09-08
 slug: icp
-type: page
 layout: article-page
 icon: { image: "0.webp" }
 outputs:

@@ -8,15 +8,13 @@ list: directory
 slots:
   breadcrumb: true
 cascade:
-  - _target:
+  - target:
       kind: term
     layout: article-list
     slots:
       breadcrumb: true
 banyan_taxonomy:
   mode: flat
-  show_in_home: true
-  home_weight: 20
   article_weight: 20
   normalize: lower
   article_mode: all
