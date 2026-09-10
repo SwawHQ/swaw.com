@@ -22,7 +22,7 @@
 6. 站点模板/ui/新功能等相关修订都应该针对主题themes/banyan/进行，而业务内容/定制化（主题已支持）的才是在根目录中实现,而 themes\banyan\exampleSite 请直接忽略，勿要做任何修订，后续会统一处理！但不是现在！！测试请只有用根目录内容，不要用exampleSite的内容！  
 7. temp_workspace 可以用作临时工作空间, 避免使用系统%temp%目录，（.gitignore 已添加 /temp_workspace\*/）  
 8. hugo默认生成 public/，测试可编译到 temp_workspace/public/yymmddhhmm-{notes}/  
-9. 若没修改themes\banyan\data\cache-policy-default.toml 与 themes\banyan\assets\js\下的 sw.enable.js.tmpl sw-manager.enable.update.js，可忽略此条，否则需确认：  
+9. 若没修改themes\banyan\data\cache-policy-default.toml 与 themes\banyan\assets\js\pwa\ 下的文件，可忽略此条，否则需确认：
     9.1. sw.js的缓存策略：navigation = cache-first + versioned; assets（hash资源） = cache-first + fingerprinted; sw.js = ignore  
     9.2. 若浏览器更新sw.js，会被监控到,然后通知ui刷新/重载sw.js 并清空navigation旧缓存  
     9.3. 对sw.js的缓存策略确保为"no-cache, max-age=0, must-revalidate"  

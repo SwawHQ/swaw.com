@@ -30,7 +30,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'report-sample' 'sha256-TJLYVl7rebdi5b91uyWUhw7pB7W0YmjqC8lVyKio/tQ=' 'sha256-jCh5yHzzbQaOCzTl422iNDU/tOSBFJkUaxvnNiyBPzA=' 'sha256-sSj2AP9oOGAxye5z2EXrsqF1lPFoMmWlijukkapiYeM='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
+          "value": "default-src 'self'; script-src 'self' 'report-sample' 'sha256-/FPPJRMHVVqH/WKaMuHoWFasEMQ27pxl56joLAzYtc0=' 'sha256-2humPfV0Icp0KWc+1H0tXVlmnF8jpEjCgTc2L4yeniQ=' 'sha256-PGxL0Q0iVqNaRppqvS7timgxF9jZ+vC6CDFJ7nreE9o=' 'sha256-jCh5yHzzbQaOCzTl422iNDU/tOSBFJkUaxvnNiyBPzA=' 'sha256-vFgQhzHmsV0YEpZFaqf3uaWpdFpZFTi3Olce8fgHe/Y='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
         }
       ]
     },
@@ -84,25 +84,7 @@
       ]
     },
     {
-      "source": "/runtime/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
       "source": "/media/content/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/__fragments/*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -179,6 +161,276 @@
     {
       "destination": "/zh-tw/p/swaw-kit-wsl-release/",
       "source": "/zh-tw/p/wsl-automng/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/free/",
+      "source": "/products/first-party/free",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/free/",
+      "source": "/products/first-party/free/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/paid/",
+      "source": "/products/first-party/paid",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/paid/",
+      "source": "/products/first-party/paid/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/free/",
+      "source": "/zh/products/first-party/free",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/free/",
+      "source": "/zh/products/first-party/free/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/paid/",
+      "source": "/zh/products/first-party/paid",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/paid/",
+      "source": "/zh/products/first-party/paid/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/free/",
+      "source": "/zh-tw/products/first-party/free",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/free/",
+      "source": "/zh-tw/products/first-party/free/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/paid/",
+      "source": "/zh-tw/products/first-party/paid",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/paid/",
+      "source": "/zh-tw/products/first-party/paid/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/",
+      "source": "/product-categories",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/",
+      "source": "/product-categories/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/free/",
+      "source": "/product-categories/free",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/free/",
+      "source": "/product-categories/free/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/paid/",
+      "source": "/product-categories/paid",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/paid/",
+      "source": "/product-categories/paid/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/first-party/",
+      "source": "/product-categories/first-party",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/first-party/",
+      "source": "/product-categories/first-party/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/third-party/",
+      "source": "/product-categories/third-party",
+      "statusCode": 301
+    },
+    {
+      "destination": "/products/third-party/",
+      "source": "/product-categories/third-party/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/",
+      "source": "/zh/product-categories",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/",
+      "source": "/zh/product-categories/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/free/",
+      "source": "/zh/product-categories/free",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/free/",
+      "source": "/zh/product-categories/free/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/paid/",
+      "source": "/zh/product-categories/paid",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/paid/",
+      "source": "/zh/product-categories/paid/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/first-party/",
+      "source": "/zh/product-categories/first-party",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/first-party/",
+      "source": "/zh/product-categories/first-party/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/third-party/",
+      "source": "/zh/product-categories/third-party",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/products/third-party/",
+      "source": "/zh/product-categories/third-party/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/",
+      "source": "/zh-tw/product-categories",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/",
+      "source": "/zh-tw/product-categories/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/free/",
+      "source": "/zh-tw/product-categories/free",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/free/",
+      "source": "/zh-tw/product-categories/free/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/paid/",
+      "source": "/zh-tw/product-categories/paid",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/paid/",
+      "source": "/zh-tw/product-categories/paid/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/first-party/",
+      "source": "/zh-tw/product-categories/first-party",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/first-party/",
+      "source": "/zh-tw/product-categories/first-party/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/third-party/",
+      "source": "/zh-tw/product-categories/third-party",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/products/third-party/",
+      "source": "/zh-tw/product-categories/third-party/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/updates/check/",
+      "source": "/pwa",
+      "statusCode": 301
+    },
+    {
+      "destination": "/updates/check/",
+      "source": "/pwa/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/updates/",
+      "source": "/site",
+      "statusCode": 301
+    },
+    {
+      "destination": "/updates/",
+      "source": "/site/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/updates/check/",
+      "source": "/zh/pwa",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/updates/check/",
+      "source": "/zh/pwa/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/updates/",
+      "source": "/zh/site",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh/updates/",
+      "source": "/zh/site/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/updates/check/",
+      "source": "/zh-tw/pwa",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/updates/check/",
+      "source": "/zh-tw/pwa/",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/updates/",
+      "source": "/zh-tw/site",
+      "statusCode": 301
+    },
+    {
+      "destination": "/zh-tw/updates/",
+      "source": "/zh-tw/site/",
       "statusCode": 301
     }
   ]
