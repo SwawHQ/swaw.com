@@ -6,7 +6,6 @@ linkTitle: "Git Multi-Account Management"
 slug: "swaw-kit-git"
 description: "Using multiple GitHub or GitLab accounts makes commit authorship and push credentials easy to mix up. Swaw Kit Git turns each identity into a dedicated command that also works in VS Code, Cursor, and AI agents."
 share_image: "swaw-kit-git-en-share.png"
-nav_primary: signals
 intent:
  - explore
 tags:

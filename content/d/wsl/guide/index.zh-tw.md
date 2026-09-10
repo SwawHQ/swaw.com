@@ -9,7 +9,6 @@ aliases:
  - /p/wsl-practical/
 description: "整理 WSL 在 Windows 10/11 上的安裝、版本切換、執行個體管理、備份還原、遷移、鏡像網路、離線安裝與常用設定。"
 share_image: wsl-guide-zh-tw-share.png
-nav_primary: signals
 intent:
  - explore
 tags:

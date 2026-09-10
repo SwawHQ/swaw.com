@@ -13,10 +13,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   readiness, and cleanup decisions.
 
 ### Changed
+- Pointed product navigation and about-page links to the new all-products view;
+  added permanent multilingual redirects from the previous product category URLs.
+- Promoted About and WeChat to ordinary root content pages, added root GitHub,
+  RSS, and ICP pages, and grouped update checking with Changelog under
+  `content/updates/`; retained the existing `/about/`, `/wechat/`, and
+  `/changelog/` URLs.
+- Stopped publishing unused source images when generating social share cards,
+  and added scalable collection budgets plus a 64 KiB per-page navigation
+  payload limit to the production HTML audit.
 - Removed the root `content/d/test/` page so test/demo copy no longer lives in
   production content.
 - **SEO Defense System (High Priority)**: Implemented robust Canonical Links and custom Sitemap generation to protect the multi-dimensional static sorting system from SEO penalties.
   - *Context*: The use of multiple `[outputFormats]` (like `byname`, `bycount`) created an exponential explosion of duplicate list pages.
   - *Sitemap Optimization*: A custom `layouts/sitemap.xml` was added to the `banyan` theme. It actively filters out all custom sorting outputs, ensuring only the pure, default `bydate` paths are submitted to search engines.
-  - *Canonical Link Enforcement*: Modified `themes/banyan/layouts/_default/baseof.html` to dynamically calculate and injecting a canonical link pointing strictly back to the root node's `bydate` format, effectively preventing Duplicate Content penalties and consolidating link equity across all sorting variations.
+  - *Canonical Link Enforcement*: Modified `themes/banyan/layouts/baseof.html` to dynamically calculate and injecting a canonical link pointing strictly back to the root node's `bydate` format, effectively preventing Duplicate Content penalties and consolidating link equity across all sorting variations.
   - *Canonical Pagination Compatibility*: Enhanced the canonical link logic in `baseof.html` to accurately intercept and correctly transfer deep pagination suffixes (`/page/2/`, etc.) from sorting variation URLs directly onto the default pure Canonical target. This comprehensively safeguards the site against the "indexation blackhole" problem associated with deep-linking pagination.

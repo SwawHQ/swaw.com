@@ -31,7 +31,7 @@ mode = "enable"
 mode = "enable"
 
 [params.sitemap]
-include_pages = ["/about", "/changelog", "/wechat"]
+include_pages = ["/about", "/updates/changelog", "/wechat", "/rss", "/github", "/icp"]
 
 [frontmatter]
 lastmod = ["lastmod", ":git", ":default"]
@@ -41,6 +41,7 @@ pagerSize = 30
 [taxonomies]
 intent = "intent"
 tag = "tags"
+product = "products"
 # udc = "udc"
 # category = "categories"
 # author = "authors"
@@ -77,6 +78,7 @@ languageName = "English"
 weight = 1
 [languages.en.params]
 locale = "en_US"
+icon = { text = "EN" }
 
 [languages.zh]
 languageName = "中文"
@@ -84,6 +86,7 @@ weight = 2
 
 [languages.zh.params]
 locale = "zh_CN"
+icon = { text = "简" }
 
 [languages.zh-tw]
 languageName = "繁體"
@@ -91,6 +94,7 @@ weight = 3
 
 [languages.zh-tw.params]
 locale = "zh_TW"
+icon = { text = "繁" }
 
 [permalinks]
 

@@ -2,8 +2,9 @@
 title: "Changelog"
 description: "Review the currently deployed Swaw build, source revision, and available release information."
 slug: "changelog"
-type: "page"
-layout: "article-page"
+url: changelog/
+weight: 20
+layout: "page-article"
 changelog:
   intro: "Swaw's automatic changelog shows the currently deployed build, build time, and available source information."
   current_build: "Current build"
@@ -16,11 +17,9 @@ changelog:
   release_notes: "Release notes"
   release_notes_fallback: "Detailed release notes are still being organized. For now, this page keeps the deployed build and its source information verifiable."
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
-  footer: /fragments/home-footer-shortcuts
+  breadcrumb: true
 build:
-  list: "never"
+  list: local
 ---
 
 {{< changelog-fallback >}}

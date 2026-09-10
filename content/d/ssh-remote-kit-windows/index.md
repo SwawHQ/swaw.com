@@ -6,7 +6,6 @@ linkTitle: "Turn Every VPS into a Local Command"
 slug: "ssh-remote-kit-windows"
 description: "On Windows, bind each VPS to a local command for SSH key setup, remote commands, file transfer, and remote development—giving people and AI agents a clear, stable entry point for operations."
 share_image: ssh-remote-kit-windows-en-share.png
-nav_primary: signals
 intent:
  - explore
 tags:

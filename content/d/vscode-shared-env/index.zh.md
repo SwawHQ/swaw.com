@@ -6,7 +6,6 @@ linkTitle: "VS Code 新窗口的环境变量"
 slug: "vscode-shared-env"
 description: "启动 VS Code 时注入的环境变量，可扩散到此后所有新建 VS Code 窗口。30 秒复现、官方隔离方案、我的轻量解法。"
 share_image: "vscode-shared-env-share.png"
-nav_primary: signals
 intent:
  - explore
 tags:

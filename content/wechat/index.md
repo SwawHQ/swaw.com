@@ -1,15 +1,17 @@
 ---
+root_nav: true
 title: "Swaw on WeChat: 何与生 and the AI Cockpit Technical Group"
 description: "Follow the Swaw WeChat official account \"何与生\" or join the \"AI Cockpit\" technical exchange group."
 slug: wechat
-type: page
-layout: article-page
+url: wechat/
+weight: 101
+icon: wechat
+linkTitle: WeChat
+layout: page-article
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
-  footer: /fragments/home-footer-shortcuts
+  breadcrumb: true
 build:
-  list: never
+  list: local
 ---
 
 ## Swaw WeChat Official Account "何与生"

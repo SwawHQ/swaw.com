@@ -2,8 +2,9 @@
 title: "更新记录"
 description: "查看 Swaw 当前部署版本、源码修订与可用的发布信息。"
 slug: "changelog"
-type: "page"
-layout: "article-page"
+url: changelog/
+weight: 20
+layout: "page-article"
 changelog:
   intro: "Swaw 的自动更新记录，展示当前部署版本、构建时间和可用的源码信息。"
   current_build: "当前构建"
@@ -16,11 +17,9 @@ changelog:
   release_notes: "发布说明"
   release_notes_fallback: "详细发布说明仍在整理；当前先保留可验证的部署版本与来源信息。"
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
-  footer: /fragments/home-footer-shortcuts
+  breadcrumb: true
 build:
-  list: "never"
+  list: local
 ---
 
 {{< changelog-fallback >}}

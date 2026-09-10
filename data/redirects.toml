@@ -31,3 +31,276 @@ status = 301
 source = "/zh-tw/p/wsl-automng/"
 destination = "/zh-tw/p/swaw-kit-wsl-release/"
 status = 301
+
+# Legacy product paths redirect directly to the current native taxonomy terms.
+[[rules]]
+source = "/products/first-party/free"
+destination = "/products/free/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/free/"
+destination = "/products/free/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/paid"
+destination = "/products/paid/"
+status = 301
+
+[[rules]]
+source = "/products/first-party/paid/"
+destination = "/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/free"
+destination = "/zh/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/free/"
+destination = "/zh/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/paid"
+destination = "/zh/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh/products/first-party/paid/"
+destination = "/zh/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/free"
+destination = "/zh-tw/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/free/"
+destination = "/zh-tw/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/paid"
+destination = "/zh-tw/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/products/first-party/paid/"
+destination = "/zh-tw/products/paid/"
+status = 301
+
+
+[[rules]]
+source = "/product-categories"
+destination = "/products/"
+status = 301
+
+[[rules]]
+source = "/product-categories/"
+destination = "/products/"
+status = 301
+
+[[rules]]
+source = "/product-categories/free"
+destination = "/products/free/"
+status = 301
+
+[[rules]]
+source = "/product-categories/free/"
+destination = "/products/free/"
+status = 301
+
+[[rules]]
+source = "/product-categories/paid"
+destination = "/products/paid/"
+status = 301
+
+[[rules]]
+source = "/product-categories/paid/"
+destination = "/products/paid/"
+status = 301
+
+[[rules]]
+source = "/product-categories/first-party"
+destination = "/products/first-party/"
+status = 301
+
+[[rules]]
+source = "/product-categories/first-party/"
+destination = "/products/first-party/"
+status = 301
+
+[[rules]]
+source = "/product-categories/third-party"
+destination = "/products/third-party/"
+status = 301
+
+[[rules]]
+source = "/product-categories/third-party/"
+destination = "/products/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories"
+destination = "/zh/products/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/"
+destination = "/zh/products/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/free"
+destination = "/zh/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/free/"
+destination = "/zh/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/paid"
+destination = "/zh/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/paid/"
+destination = "/zh/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/first-party"
+destination = "/zh/products/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/first-party/"
+destination = "/zh/products/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/third-party"
+destination = "/zh/products/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh/product-categories/third-party/"
+destination = "/zh/products/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories"
+destination = "/zh-tw/products/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/"
+destination = "/zh-tw/products/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/free"
+destination = "/zh-tw/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/free/"
+destination = "/zh-tw/products/free/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/paid"
+destination = "/zh-tw/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/paid/"
+destination = "/zh-tw/products/paid/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/first-party"
+destination = "/zh-tw/products/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/first-party/"
+destination = "/zh-tw/products/first-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/third-party"
+destination = "/zh-tw/products/third-party/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/product-categories/third-party/"
+destination = "/zh-tw/products/third-party/"
+status = 301
+
+# Updates now owns the former PWA and site entry pages.
+[[rules]]
+source = "/pwa"
+destination = "/updates/check/"
+status = 301
+
+[[rules]]
+source = "/pwa/"
+destination = "/updates/check/"
+status = 301
+
+[[rules]]
+source = "/site"
+destination = "/updates/"
+status = 301
+
+[[rules]]
+source = "/site/"
+destination = "/updates/"
+status = 301
+
+[[rules]]
+source = "/zh/pwa"
+destination = "/zh/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh/pwa/"
+destination = "/zh/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh/site"
+destination = "/zh/updates/"
+status = 301
+
+[[rules]]
+source = "/zh/site/"
+destination = "/zh/updates/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/pwa"
+destination = "/zh-tw/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/pwa/"
+destination = "/zh-tw/updates/check/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/site"
+destination = "/zh-tw/updates/"
+status = 301
+
+[[rules]]
+source = "/zh-tw/site/"
+destination = "/zh-tw/updates/"
+status = 301

@@ -1,16 +1,17 @@
 ---
+root_nav: true
 title: 關於Swaw
 description: "了解 Swaw 如何為一人工作室構建可維護的 AI 工作流程、開發工具與實踐指南。"
 slug: about
-nav_primary: about
-type: page
-layout: article-page
+url: about/
+weight: 95
+linkTitle: 關於
+layout: page-article
+icon: { image: "site/pwa/favicon.svg", monochrome: true }
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
-  footer: /fragments/home-footer-shortcuts
+  breadcrumb: true
 build:
-  list: never
+  list: local
 ---
 
 
@@ -47,7 +48,7 @@ Swaw 不是憑空想出來的產品概念，而是我先為自己搭建工作系
 
 - [文庫](/all/)：關於產業變化、工程實踐的階段性文字紀錄（供人回看，也供 AI 取材）。
 
-- [產品](/products/first-party/)：已經產品化、可以試用或進一步了解的工具。
+- [產品](/all-products/)：已經產品化、可以試用或進一步了解的工具。
 
 ## 品牌與主體資訊
 
@@ -65,7 +66,7 @@ Swaw 不是憑空想出來的產品概念，而是我先為自己搭建工作系
 ## 聯絡方式
 
 X：[@iddibi](https://x.com/iddibi)  
-GitHub：[swawai](https://github.com/swawai)  
+GitHub：[SwawHQ](https://github.com/SwawHQ)  
 Email：[hello@swaw.com](mailto:hello@swaw.com)  
 微信公眾號：掃描下方 QR Code
 

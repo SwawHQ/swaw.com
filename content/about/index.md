@@ -1,16 +1,17 @@
 ---
+root_nav: true
 title: About Swaw
 description: "Learn how Swaw builds maintainable AI workflows, developer tools, and practical guides for one-person studios."
 slug: about
-nav_primary: about
-type: page
-layout: article-page
+url: about/
+weight: 95
+linkTitle: About
+layout: page-article
+icon: { image: "site/pwa/favicon.svg", monochrome: true }
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
-  footer: /fragments/home-footer-shortcuts
+  breadcrumb: true
 build:
-  list: never
+  list: local
 ---
 
 
@@ -47,7 +48,7 @@ If this is your first time here, you can start from two places:
 
 - [Library](/all/): field notes on industry shifts and engineering practice—for people to revisit, and for AI to draw on.
 
-- [Products](/products/first-party/): tools that have already been productized and are available to try or learn more about.
+- [Products](/all-products/): tools that have already been productized and are available to try or learn more about.
 
 ## Brand and Business Information
 
@@ -65,7 +66,7 @@ The two entities are mainly used for payments and business operations in differe
 ## Contact
 
 X: [@iddibi](https://x.com/iddibi)  
-GitHub: [swawai](https://github.com/swawai)  
+GitHub: [SwawHQ](https://github.com/SwawHQ)  
 Email: [hello@swaw.com](mailto:hello@swaw.com)  
 WeChat Official Account: scan the QR code below  
 

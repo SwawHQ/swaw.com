@@ -1,28 +1,22 @@
 ﻿---
+root_nav: true
 title: Tags
+linkTitle: Articles - Categories
+weight: 20
 browser_title: "Topics and Tags"
 description: "Browse articles by topic, from AI and developer tooling to Windows and WSL."
-nav_primary: signals
-layout: article-list
+layout: page-collection
+list: directory
 slots:
-  primary_nav: /fragments/nav-primary-links
-  utilities: /fragments/nav-utilities
-  breadcrumb_root: /fragments/breadcrumb-model-signals
   breadcrumb: true
 cascade:
-  - _target:
+  - target:
       kind: term
-    nav_primary: signals
-    layout: article-list
+    layout: page-collection
     slots:
-      primary_nav: /fragments/nav-primary-links
-      utilities: /fragments/nav-utilities
-      breadcrumb_root: /fragments/breadcrumb-model-signals
       breadcrumb: true
 banyan_taxonomy:
   mode: tree
-  show_in_home: true
-  home_weight: 30
   article_weight: 30
   normalize: lower
   article_mode: deepest_by_root
@@ -30,7 +24,3 @@ banyan_taxonomy:
   unassigned_term: untagged
   unassigned_label: --untagged--
 ---
-
-
-
-{{< taxonomy-list >}}

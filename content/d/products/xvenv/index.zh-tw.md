@@ -6,17 +6,14 @@ linkTitle: "Xvenv"
 slug: "xvenv"
 description: "Xvenv 是一個 BAT 單檔腳本，以免安裝方式啟動專案級 Python、Node、Rust、Go、Git、MSVC 等開發環境。"
 share_image: xvenv-zh-tw-share.png
-nav_primary: products
-type: "page"
 intent:
  - decide
 tags:
  - tooling/devtools/windows
-product:
-  origin: first-party
-  price:
-    amount: 0
-    currency: $
+products: [free, first-party]
+offer:
+  amount: 0
+  currency: "$"
   value: "專案級免安裝開發環境"
 ---
 

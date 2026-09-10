@@ -6,7 +6,6 @@ linkTitle: "VS Code 新視窗的環境變數"
 slug: "vscode-shared-env"
 description: "啟動 VS Code 時注入的環境變數，可能擴散到之後開啟的所有新視窗。30 秒重現、官方隔離方式，以及我的輕量解法。"
 share_image: "vscode-shared-env-zh-tw-share.png"
-nav_primary: signals
 intent:
  - explore
 tags:

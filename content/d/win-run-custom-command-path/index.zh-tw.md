@@ -6,7 +6,6 @@ linkTitle: "讓 Win + R 執行自訂命令"
 slug: "win-run-custom-command-path"
 description: "用兩個小工具把工具所在目錄加入或移出使用者 PATH，讓 Win + R 可以執行自己的 .cmd、.bat 與 .exe 命令，形成個人 Windows 工具箱。"
 share_image: win-run-custom-command-path-zh-tw-share.png
-nav_primary: signals
 intent:
  - explore
 tags:

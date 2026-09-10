@@ -8,7 +8,6 @@ description: "如果宇宙星体之间也需要“授粉”：一段从植物、
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/D9XBCbZYFeUGIy1nYQyvUg
-nav_primary: signals
 intent:
  - explore
 tags:
