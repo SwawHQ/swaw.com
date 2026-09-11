@@ -5,8 +5,6 @@ title: "Windows RDP Client Entry"
 linkTitle: "RDP Client Entry"
 slug: "swaw-kit-rdp-client"
 description: "English translation in progress."
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

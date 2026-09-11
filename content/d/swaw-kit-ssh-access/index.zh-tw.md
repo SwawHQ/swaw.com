@@ -5,8 +5,6 @@ title: "「工具」一次把 Windows 設成 SSH 服務節點，提供免密碼�
 linkTitle: "Windows SSH Access 工具"
 slug: "swaw-kit-ssh-access"
 description: "Swaw Kit SSH Access 用一個可命名的 .cmd 入口指令綁定一把 SSH 公鑰（以及選用的同名私鑰），一次管理公鑰授權、私鑰註冊、OpenSSH Client/Server 服務開關、服務連接埠、防火牆與預設 Shell。"
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

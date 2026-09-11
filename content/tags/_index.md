@@ -1,10 +1,10 @@
 ﻿---
 root_nav: true
-title: Tags
-linkTitle: Articles - Categories
+title: Content - Categories
+linkTitle: Content - Categories
 weight: 20
-browser_title: "Topics and Tags"
-description: "Browse articles by topic, from AI and developer tooling to Windows and WSL."
+browser_title: "Content Topics and Tags"
+description: "Browse content by topic, from AI and developer tooling to Windows and WSL."
 layout: page-collection
 list: directory
 slots:
@@ -19,7 +19,7 @@ banyan_taxonomy:
   mode: tree
   article_weight: 30
   normalize: lower
-  article_mode: deepest_by_root
+  article_mode: leaf_paths
   term_rel: tag
   unassigned_term: untagged
   unassigned_label: --untagged--

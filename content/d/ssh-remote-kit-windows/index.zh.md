@@ -9,8 +9,6 @@ share_image: ssh-remote-kit-windows-zh-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/Folmy8rGuvkPPylauOG1cQ
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

@@ -9,8 +9,6 @@ share_image: loop-engineering-digital-life-origin-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/YTB6FR95SOEmir_vObXZBA
-intent:
- - explore
 tags:
  - ai
  - tooling

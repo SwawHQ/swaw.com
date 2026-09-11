@@ -6,8 +6,6 @@ linkTitle: "把每台 VPS 變成本機命令"
 slug: "ssh-remote-kit-windows"
 description: "在 Windows 上，把每台 VPS 綁定成本機命令，用來設定 SSH 公開金鑰、執行遠端命令、傳輸檔案與開啟遠端開發環境，也為 Agent 提供清楚穩定的維運入口。"
 share_image: ssh-remote-kit-windows-zh-tw-share.png
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

@@ -8,8 +8,6 @@ description: "从 Anthropic Skills 出发，提出 CoSkill：一种人类和 age
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/QaSxCRg-Vq9Pi02nTqGSog
-intent:
- - explore
 tags:
  - ai
  - tooling
@@ -134,4 +132,3 @@ Coskill 变多，将可以考虑：
 问题不是 AI 要不要变强。
 
 问题是，当 AI 变强时，人类是否仍然能站在同一个行动面上。
-

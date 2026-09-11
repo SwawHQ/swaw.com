@@ -9,8 +9,6 @@ share_image: ssh-reverse-port-forward-proxy-zh-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/bImB4alvMibKW8Ndb1JNXQ
-intent:
- - explore
 tags:
  - tooling
 ---

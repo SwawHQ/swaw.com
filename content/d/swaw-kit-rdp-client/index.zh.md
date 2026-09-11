@@ -5,8 +5,6 @@ title: "「工具」AI Agent 远程控制 Windows"
 linkTitle: "Codex 管理远程 Windows"
 slug: "swaw-kit-rdp-client"
 description: "Swaw Kit RDP Client 把一个 Windows RDP 账号做成 Codex 可调用、可验证的本地入口；配合 SSH，它为聊天式远程运维提供清楚的账号与会话边界。"
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

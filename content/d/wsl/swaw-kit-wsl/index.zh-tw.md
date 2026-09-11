@@ -6,8 +6,6 @@ linkTitle: "WSL 一鍵管理工具"
 slug: "swaw-kit-wsl-release"
 description: "讓一個命令指令碼綁定一個 WSL 執行個體，一鍵管理背景保活、備份、還原、移轉、SSH、systemd 與連接埠開放，人和 AI Agent 都能直接呼叫。"
 share_image: swaw-kit-wsl-release-zh-tw-share.png
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

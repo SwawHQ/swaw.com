@@ -6,8 +6,6 @@ linkTitle: "ssh -R Proxy Bridge"
 slug: "ssh-reverse-port-forward-proxy"
 description: "Use SSH remote port forwarding to map a server-local 127.0.0.1:17890 endpoint to your workstation's HTTP proxy—a temporary fix when npm, pip, GitHub, or other dependency downloads stall."
 share_image: ssh-reverse-port-forward-proxy-en-share.png
-intent:
- - explore
 tags:
  - tooling
 ---

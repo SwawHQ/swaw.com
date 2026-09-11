@@ -6,8 +6,6 @@ linkTitle: "Environment Variables in New VS Code Windows"
 slug: "vscode-shared-env"
 description: "Environment variables injected when VS Code starts can propagate to every window opened afterward. Reproduce it in 30 seconds, then compare the official isolation option with a lighter workaround."
 share_image: "vscode-shared-env-en-share.png"
-intent:
- - explore
 tags:
  - tooling/devtools/windows
  - ai
