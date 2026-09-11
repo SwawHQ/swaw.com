@@ -6,8 +6,6 @@ linkTitle: "Loop Engineering: Digital Life"
 slug: "loop-engineering-digital-life-origin"
 description: "A fable about digital life beginning with Loop Engineering, not consciousness: the internet as primordial soup for a financially self-sustaining “botnet.”"
 share_image: loop-engineering-digital-life-origin-en-share.png
-intent:
- - explore
 tags:
  - ai
  - tooling

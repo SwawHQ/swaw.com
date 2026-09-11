@@ -9,8 +9,6 @@ share_image: swaw-kit-git-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/AJnpDd3JSOo4VQmIU3DpPA
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

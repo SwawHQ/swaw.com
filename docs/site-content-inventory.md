@@ -34,7 +34,6 @@ content, site identity, and editorial cleanup decisions.
 
 | Area | Paths | Status | Notes |
 | --- | --- | --- | --- |
-| Intent taxonomy | `content/intent/` | Keep | Site-owned cognitive taxonomy. |
 | Tags taxonomy | `content/tags/` | Keep | Site-owned topic taxonomy. |
 | Product section | `content/d/products/` | Keep | Product articles remain here; each product has one content bundle. |
 | Product views | `themes/banyan/content/products/`, `themes/banyan/content/all-products/` | Keep | Theme-provided taxonomy and deduplicated all-products views. Retired `/product-categories/` paths redirect. |

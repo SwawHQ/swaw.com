@@ -6,8 +6,6 @@ linkTitle: "Xvenv"
 slug: "xvenv"
 description: "Xvenv is a single BAT script that bootstraps project-scoped, portable environments for Python, Node, Rust, Go, Git, MSVC, and more."
 share_image: xvenv-en-share.png
-intent:
- - decide
 tags:
  - tooling/devtools/windows
 products: [free, first-party]

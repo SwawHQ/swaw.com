@@ -5,8 +5,6 @@ title: "「工具」一站式设置 Windows 作为 SSH 服务节点，提供免�
 linkTitle: "Windows SSH Access 工具"
 slug: "swaw-kit-ssh-access"
 description: "Swaw Kit SSH Access 用一个可命名的 .cmd 入口命令绑定一个 SSH 公钥(和可选的同名私钥)，来一站式管理公钥授权、私钥注册、OpenSSH Client/Server 服务开关、服务端口、防火墙和默认 Shell。"
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---
@@ -184,6 +182,5 @@ PathHereAdd.cmd
 感谢惠读！
 
 > 关联仓库：https://github.com/swawai/swaw-kit
-
 
 

@@ -39,16 +39,14 @@ lastmod = ["lastmod", ":git", ":default"]
 [pagination]
 pagerSize = 30
 [taxonomies]
-intent = "intent"
 tag = "tags"
 product = "products"
 # udc = "udc"
 # category = "categories"
 # author = "authors"
 #
-# ExampleSite ships sample taxonomy bundles under:
-#   - content/intent/_index.<lang>.md => intent sample
-#   - content/tags/_index.<lang>.md   => tags sample
+# ExampleSite ships a sample taxonomy bundle under:
+#   - content/tags/_index.<lang>.md => tags sample
 # Each taxonomy must define its own [banyan_taxonomy] in the root bundle.
 # Theme i18n and params.banyan.taxonomies.* are no longer taxonomy metadata sources.
 

@@ -1,10 +1,10 @@
 ﻿---
 root_nav: true
-title: 標籤
-linkTitle: 文章 - 分類
+title: 內容 - 分類
+linkTitle: 內容 - 分類
 weight: 20
-browser_title: "文章主題與標籤"
-description: "按主題瀏覽文章，涵蓋 AI、開發工具、Windows 與 WSL。"
+browser_title: "內容主題與標籤"
+description: "按主題瀏覽內容，涵蓋 AI、開發工具、Windows 與 WSL。"
 layout: page-collection
 list: directory
 slots:
@@ -19,7 +19,7 @@ banyan_taxonomy:
   mode: tree
   article_weight: 30
   normalize: lower
-  article_mode: deepest_by_root
+  article_mode: leaf_paths
   term_rel: tag
   unassigned_term: untagged
   unassigned_label: --untagged--

@@ -12,8 +12,6 @@ share_image: wsl-guide-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/Wd7woZa6jD8hIaqir8tK4w
-intent:
- - explore
 tags:
  - tooling/devtools/windows/wsl
 ---
@@ -688,4 +686,3 @@ sudo visudo -cf "/etc/sudoers.d/$USER" && sudo -l
 
 > 微信交流群：
 > {{< asset src="site/brand/wecom-ex-group-ai-cockpit.gif" alt="企业微信外部群「AI 驾驶舱」二维码" >}}
-

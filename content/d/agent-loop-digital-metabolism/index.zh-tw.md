@@ -6,8 +6,6 @@ linkTitle: "Loop Engineering：數位生命"
 slug: "loop-engineering-digital-life-origin"
 description: "一則寓言：數位生命或許不是從意識，而是從 Loop Engineering 開始；以網際網路為原始湯，成為某種在會計意義上能活下去的「殭屍網路」。"
 share_image: loop-engineering-digital-life-origin-zh-tw-share.png
-intent:
- - explore
 tags:
  - ai
  - tooling

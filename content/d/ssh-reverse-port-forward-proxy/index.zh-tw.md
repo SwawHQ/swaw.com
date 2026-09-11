@@ -6,8 +6,6 @@ linkTitle: "ssh -R 一劍開天門"
 slug: "ssh-reverse-port-forward-proxy"
 description: "透過 SSH 反向連接埠轉送，把伺服器上的 127.0.0.1:17890 暫時對應到本機 HTTP 代理，救急處理 npm、pip、GitHub 等相依套件下載卡住的問題。"
 share_image: ssh-reverse-port-forward-proxy-zh-tw-share.png
-intent:
- - explore
 tags:
  - tooling
 ---

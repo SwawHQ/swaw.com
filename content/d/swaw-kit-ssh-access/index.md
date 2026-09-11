@@ -5,8 +5,6 @@ title: "Tool: Turn Windows into an SSH server with key-based access in one go"
 linkTitle: "Windows SSH Access tool"
 slug: "swaw-kit-ssh-access"
 description: "Swaw Kit SSH Access binds a public key—and optionally its matching private key—to a named .cmd entry command. It then manages public-key authorization, private-key registration, OpenSSH Client and Server, the server port, firewall rules, and the default shell in one place."
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---

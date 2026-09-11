@@ -9,8 +9,6 @@ share_image: swaw-kit-wsl-release-share.png
 published_links:
   - label: 公众号
     url: https://mp.weixin.qq.com/s/jxHq3Ie9BmSgza1mHoHncA
-intent:
- - explore
 tags:
  - tooling/devtools/windows
 ---
