@@ -94,6 +94,8 @@ weight = 3
 locale = "zh_TW"
 icon = { text = "繁" }
 
-[permalinks]
+[params.appearance]
+palette = "css/theme-monochrome.css"
 
+[permalinks]
 d = "/p/:slug/"
