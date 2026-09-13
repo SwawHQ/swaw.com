@@ -7,7 +7,7 @@ url: about/
 weight: 95
 linkTitle: About
 layout: page-article
-icon: { image: "site/pwa/favicon.svg", monochrome: true }
+icon: { image: "site/pwa/favicon.svg" }
 slots:
   breadcrumb: true
 build:
