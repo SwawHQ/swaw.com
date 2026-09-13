@@ -1,5 +1,6 @@
 ---
 date: "2026-06-23T08:30:00+08:00"
+lastmod: "2026-06-23T08:30:00+08:00"
 draft: false
 title: "WSL 工具：一鍵管理保活、備份還原、SSH、systemd 與連接埠開放"
 linkTitle: "WSL 一鍵管理工具"

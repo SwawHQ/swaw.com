@@ -1,5 +1,6 @@
 ---
 date: "2026-07-26T13:47:31+08:00"
+lastmod: "2026-07-26T13:47:31+08:00"
 draft: false
 title: "VS Code 新視窗，可能悄悄繼承你的金鑰"
 linkTitle: "VS Code 新視窗的環境變數"

@@ -1,5 +1,6 @@
 ---
 date: "2026-07-26T13:47:31+08:00"
+lastmod: "2026-07-26T13:47:31+08:00"
 draft: false
 title: "VS Code 新窗口，可悄悄继承你的密钥"
 linkTitle: "VS Code 新窗口的环境变量"

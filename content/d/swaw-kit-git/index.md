@@ -1,5 +1,6 @@
 ---
 date: "2026-07-22T16:41:59+08:00"
+lastmod: "2026-07-22T16:41:59+08:00"
 draft: false
 title: "Git Multi-Account Management Without Identity Mix-Ups"
 linkTitle: "Git Multi-Account Management"

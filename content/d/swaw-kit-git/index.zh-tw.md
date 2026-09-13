@@ -1,5 +1,6 @@
 ---
 date: "2026-07-22T16:41:59+08:00"
+lastmod: "2026-07-22T16:41:59+08:00"
 draft: false
 title: "Git 多帳號管理，如何像鐵一樣清楚"
 linkTitle: "Git 多帳號管理"

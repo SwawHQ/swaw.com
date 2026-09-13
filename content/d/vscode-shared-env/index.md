@@ -1,5 +1,6 @@
 ---
 date: "2026-07-26T13:47:31+08:00"
+lastmod: "2026-07-26T13:47:31+08:00"
 draft: false
 title: "New VS Code Windows Can Quietly Inherit Your API Keys"
 linkTitle: "Environment Variables in New VS Code Windows"

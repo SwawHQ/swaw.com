@@ -1,5 +1,6 @@
 ---
 date: "2026-07-30T09:50:20+08:00"
+lastmod: "2026-07-30T09:50:20+08:00"
 draft: false
 title: "「工具」一次把 Windows 設成 SSH 服務節點，提供免密碼連線"
 linkTitle: "Windows SSH Access 工具"

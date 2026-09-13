@@ -1,5 +1,6 @@
 ---
 date: "2026-06-23T08:30:00+08:00"
+lastmod: "2026-06-23T08:30:00+08:00"
 draft: false
 title: "WSL 工具：一键管理后台保活、备份还原、SSH、systemd 和端口暴露，Agent 也少走弯路"
 linkTitle: "WSL 一键管理工具"

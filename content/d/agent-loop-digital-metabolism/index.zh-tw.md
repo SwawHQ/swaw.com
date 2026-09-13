@@ -1,5 +1,6 @@
 ---
 date: "2026-06-24T22:55:52+08:00"
+lastmod: "2026-06-24T22:55:52+08:00"
 draft: false
 title: "Loop Engineering：櫃檯小姐的一句邀請，數位生命的開局"
 linkTitle: "Loop Engineering：數位生命"

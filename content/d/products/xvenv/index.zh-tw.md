@@ -1,5 +1,6 @@
 ---
 date: "2025-10-12T20:11:44+08:00"
+lastmod: "2025-10-12T20:11:44+08:00"
 draft: false
 title: "Xvenv：用一個 BAT 腳本啟動專案級免安裝開發環境"
 linkTitle: "Xvenv"

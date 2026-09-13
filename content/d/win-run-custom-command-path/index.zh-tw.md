@@ -1,5 +1,6 @@
 ---
 date: "2026-06-10T11:42:11+08:00"
+lastmod: "2026-06-10T11:42:11+08:00"
 draft: false
 title: "讓 Win + R 執行自訂命令：一個加入 PATH 的小工具"
 linkTitle: "讓 Win + R 執行自訂命令"

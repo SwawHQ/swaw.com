@@ -1,5 +1,6 @@
 ---
 date: "2026-06-10T11:42:11+08:00"
+lastmod: "2026-06-10T11:42:11+08:00"
 draft: false
 title: "Run Custom Commands from Win + R with a Small PATH Helper"
 linkTitle: "Run Custom Commands from Win + R"

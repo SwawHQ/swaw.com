@@ -1,5 +1,6 @@
 ---
 date: "2026-06-03T23:54:34+08:00"
+lastmod: "2026-06-03T23:54:34+08:00"
 draft: false
 title: "In the Age of AI, What Still Justifies Human Existence?"
 linkTitle: "AI and Human Existence"

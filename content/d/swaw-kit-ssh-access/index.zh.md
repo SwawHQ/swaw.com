@@ -1,5 +1,6 @@
 ---
 date: "2026-07-30T09:50:20+08:00"
+lastmod: "2026-07-30T09:50:20+08:00"
 draft: false
 title: "「工具」一站式设置 Windows 作为 SSH 服务节点，提供免密连接"
 linkTitle: "Windows SSH Access 工具"

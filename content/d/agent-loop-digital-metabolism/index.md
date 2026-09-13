@@ -1,5 +1,6 @@
 ---
 date: "2026-06-24T22:55:52+08:00"
+lastmod: "2026-06-24T22:55:52+08:00"
 draft: false
 title: "Loop Engineering: A Receptionist’s Request, and Digital Life Begins"
 linkTitle: "Loop Engineering: Digital Life"

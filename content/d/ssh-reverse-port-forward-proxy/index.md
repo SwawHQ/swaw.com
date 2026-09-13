@@ -1,5 +1,6 @@
 ---
 date: "2026-05-28T00:37:56+08:00"
+lastmod: "2026-05-28T00:37:56+08:00"
 draft: false
 title: "ssh -R Opens a Path: Let a Server in Mainland China Borrow Your Local Proxy"
 linkTitle: "ssh -R Proxy Bridge"

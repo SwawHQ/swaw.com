@@ -1,5 +1,6 @@
 ---
 date: "2026-06-15T05:00:00+08:00"
+lastmod: "2026-06-15T05:00:00+08:00"
 draft: false
 title: "No ssh-copy-id on Windows? Turn Every VPS into a Local Command"
 linkTitle: "Turn Every VPS into a Local Command"

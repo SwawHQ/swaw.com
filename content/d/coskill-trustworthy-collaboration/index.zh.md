@@ -1,5 +1,6 @@
 ---
 date: "2026-06-12T17:56:53+08:00"
+lastmod: "2026-06-12T17:56:53+08:00"
 draft: false
 title: "人机协作的未来，Skills 一叶知秋"
 linkTitle: "CoSkill：人机协作的未来"

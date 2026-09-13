@@ -1,5 +1,6 @@
 ---
 date: "2026-08-10T00:00:00+08:00"
+lastmod: "2026-08-10T00:00:00+08:00"
 draft: false
 title: "「工具」AI Agent 远程控制 Windows"
 linkTitle: "Codex 管理远程 Windows"

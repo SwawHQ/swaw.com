@@ -1,5 +1,6 @@
 ---
 date: "2026-07-30T09:50:20+08:00"
+lastmod: "2026-07-30T09:50:20+08:00"
 draft: false
 title: "Tool: Turn Windows into an SSH server with key-based access in one go"
 linkTitle: "Windows SSH Access tool"

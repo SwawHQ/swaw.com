@@ -1,5 +1,6 @@
 ---
 date: "2026-06-15T05:00:00+08:00"
+lastmod: "2026-06-15T05:00:00+08:00"
 draft: false
 title: "Windows 没有 ssh-copy-id？我干脆把一台台 VPS 变成本地命令，人和 Agent 都方便"
 linkTitle: "把一台台 VPS 变成本地命令"

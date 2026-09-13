@@ -1,5 +1,6 @@
 ---
 date: "2026-06-12T17:56:53+08:00"
+lastmod: "2026-06-12T17:56:53+08:00"
 draft: false
 title: "The Future of Human-Agent Collaboration, Seen Through Skills"
 linkTitle: "CoSkill Collaboration"

@@ -34,7 +34,8 @@ mode = "enable"
 include_pages = ["/about", "/updates/changelog", "/wechat", "/rss", "/github", "/icp"]
 
 [frontmatter]
-lastmod = ["lastmod", ":git", ":default"]
+# Editorial update time: never derive it from repository maintenance.
+lastmod = ["lastmod", "date"]
 
 [pagination]
 pagerSize = 30

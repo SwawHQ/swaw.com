@@ -1,5 +1,6 @@
 ---
 date: "2025-10-12T20:11:44+08:00"
+lastmod: "2025-10-12T20:11:44+08:00"
 draft: false
 title: "Xvenv: Project-Scoped Dev Environments from One BAT Script"
 linkTitle: "Xvenv"
