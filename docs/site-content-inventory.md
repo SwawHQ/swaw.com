@@ -1,6 +1,6 @@
 # Swaw Site Content Inventory
 
-Current as of 2026-09-09.
+Current as of 2026-09-15.
 
 Root navigation, site information, update pages, and product-view paths reflect
 the flattened content model. Article URLs are preserved; retired site, PWA, and
@@ -13,7 +13,7 @@ content, site identity, and editorial cleanup decisions.
 ## Ownership Rule
 
 - Root `content/` is production site content, not a fixture warehouse.
-- Root `content/fragments/` is swaw.com-owned copy and navigation wiring.
+- Root `hugo.toml` owns shared site metadata; root pages own navigation declarations.
 - Theme defaults and reusable behavior belong in `themes/banyan/`.
 - Test, demo, and starter material should not live in root production content.
 
@@ -28,7 +28,7 @@ content, site identity, and editorial cleanup decisions.
 | GitHub | `content/github/index*.md` | Keep | Root page for the SwawHQ organization. |
 | RSS | `content/rss/index*.md` | Keep | Root page that resolves the current-language feed. |
 | ICP | `content/icp/index*.md` | Keep | Site-owned legal root page. |
-| Site metadata | `content/fragments/site-meta/` | Keep | SEO, source links, and site metadata. |
+| Site metadata | `hugo.toml` | Keep | `params.description` supplies default SEO/social descriptions and the llms intro; `params.content_source` supplies article source links. |
 
 ## Information Architecture
 

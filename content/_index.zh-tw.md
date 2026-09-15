@@ -4,11 +4,9 @@ title: Swaw
 linkTitle: "2026 Swaw"
 icon: { text: "©" }
 weight: 110
-browser_title: "Swaw — 一人工作室的 AI 駕駛艙"
-description: 一人工作室的 AI 駕駛艙。
 share_image: swaw-share.jpg
 layout: page-home
-brand_line: 看清什麼真正有效
+brand_line: See What Affects What
 home_signals:
   - codex
   - name: github

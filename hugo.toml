@@ -24,6 +24,14 @@ publishResources = false
 # swaw.com identity, Hugo structural declarations, and deployment-specific
 # overrides only.
 
+[params]
+description = "See What Affects What"
+
+[params.content_source]
+repository = "https://github.com/swawai/swaw.com"
+branch = "main"
+content_root = "content"
+
 [params.prefetch_runtime]
 mode = "enable"
 
