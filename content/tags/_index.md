@@ -1,8 +1,8 @@
 ---
 root_nav: true
-title: Content - Categories
+title: Discover - Categories
 weight: 20
-description: "Browse content by topic, from AI and developer tooling to Windows and WSL."
+description: "Explore knowledge, practical guides, and technology developments by topic."
 layout: page-collection
 list: directory
 slots:

@@ -9,7 +9,7 @@ description: "Xvenv 是一個 BAT 單檔腳本，以免安裝方式啟動專案�
 share_image: xvenv-zh-tw-share.png
 tags:
  - tooling/devtools/windows
-products: [free, first-party]
+tools: [free, first-party]
 offer:
   amount: 0
   currency: "$"

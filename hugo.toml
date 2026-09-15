@@ -49,7 +49,7 @@ lastmod = ["lastmod", "date"]
 pagerSize = 30
 [taxonomies]
 tag = "tags"
-product = "products"
+tool = "tools"
 # udc = "udc"
 # category = "categories"
 # author = "authors"

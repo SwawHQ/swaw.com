@@ -3,8 +3,8 @@
 Current as of 2026-09-15.
 
 Root navigation, site information, update pages, and product-view paths reflect
-the flattened content model. Article URLs are preserved; retired site, PWA, and
-product-category URLs have permanent redirects.
+the flattened content model. Article URLs are preserved. Retired site and PWA
+URLs retain their redirects; product-category URLs are retired without redirects.
 
 This document tracks root-site content ownership and readiness. Banyan theme
 behavior lives under `themes/banyan/`; this file is for swaw.com business
@@ -34,10 +34,11 @@ content, site identity, and editorial cleanup decisions.
 
 | Area | Paths | Status | Notes |
 | --- | --- | --- | --- |
-| Tags taxonomy | `content/tags/` | Keep | Site-owned topic taxonomy. |
+| Discover categories | `content/tags/` | Keep | Site-owned topic taxonomy, displayed as Discover - Categories / 发现 - 分类 / 發現 - 分類. |
 | Product section | `content/d/products/` | Keep | Product articles remain here; each product has one content bundle. |
-| Product views | `themes/banyan/content/products/`, `themes/banyan/content/all-products/` | Keep | Theme-provided taxonomy and deduplicated all-products views. Retired `/product-categories/` paths redirect. |
-| Article views | `themes/banyan/content/all/`, `themes/banyan/content/d/` | Keep | All-article view plus hidden directory exploration root. |
+| Tools views | `content/tools/`, `content/all-tools/` | Keep | Site copy overrides theme defaults: Tools - All / 工具 - 全部 and Tools - Categories / 工具 - 分类. Uses the tools taxonomy. Retired product routes are not published or redirected; internal links use the new routes. The products list/offer model remains generic. |
+| Discover view | `content/all/` | Keep | Site copy overrides the theme default: Discover - All / 发现 - 全部 / 發現 - 全部. Aggregates all content under `/d/`, including product pages. |
+| Content directory | `themes/banyan/content/d/` | Keep | Hidden directory exploration root; content structure is independent of entry labels. |
 | WSL section | `content/d/wsl/` | Keep | WSL knowledge cluster. |
 
 ## Core Content Assets

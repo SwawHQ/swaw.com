@@ -9,7 +9,7 @@ description: "Xvenv 是一个 BAT 单文件脚本，用免安装方式拉起项�
 share_image: xvenv-zh-share.png
 tags:
  - tooling/devtools/windows
-products: [free, first-party]
+tools: [free, first-party]
 offer:
   amount: 0
   currency: "$"

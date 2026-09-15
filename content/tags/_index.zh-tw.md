@@ -1,8 +1,8 @@
 ---
 root_nav: true
-title: 內容 - 分類
+title: 發現 - 分類
 weight: 20
-description: "按主題瀏覽內容，涵蓋 AI、開發工具、Windows 與 WSL。"
+description: "按主題探索知識、實踐方法與技術動態。"
 layout: page-collection
 list: directory
 slots:

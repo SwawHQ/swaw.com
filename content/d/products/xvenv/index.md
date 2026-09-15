@@ -9,7 +9,7 @@ description: "Xvenv is a single BAT script that bootstraps project-scoped, porta
 share_image: xvenv-en-share.png
 tags:
  - tooling/devtools/windows
-products: [free, first-party]
+tools: [free, first-party]
 offer:
   amount: 0
   currency: "$"
