@@ -1,9 +1,7 @@
-﻿---
+---
 root_nav: true
 title: Content - Categories
-linkTitle: Content - Categories
 weight: 20
-browser_title: "Content Topics and Tags"
 description: "Browse content by topic, from AI and developer tooling to Windows and WSL."
 layout: page-collection
 list: directory

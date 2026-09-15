@@ -1,9 +1,7 @@
-﻿---
+---
 root_nav: true
 title: 內容 - 分類
-linkTitle: 內容 - 分類
 weight: 20
-browser_title: "內容主題與標籤"
 description: "按主題瀏覽內容，涵蓋 AI、開發工具、Windows 與 WSL。"
 layout: page-collection
 list: directory

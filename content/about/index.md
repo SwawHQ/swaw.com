@@ -1,11 +1,10 @@
 ---
 root_nav: true
-title: About Swaw
+title: About
 description: "Learn how Swaw builds maintainable AI workflows, developer tools, and practical guides for one-person studios."
 slug: about
 url: about/
 weight: 95
-linkTitle: About
 layout: page-article
 icon: { image: "site/pwa/favicon.svg" }
 slots:
