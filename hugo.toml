@@ -28,7 +28,7 @@ publishResources = false
 description = "See What Affects What"
 
 [params.content_source]
-repository = "https://github.com/swawai/swaw.com"
+repository = "https://github.com/SwawHQ/swaw.com"
 branch = "main"
 content_root = "content"
 
@@ -39,7 +39,7 @@ mode = "enable"
 mode = "enable"
 
 [params.sitemap]
-include_pages = ["/about", "/updates/changelog", "/wechat", "/rss", "/github", "/icp"]
+include_pages = ["/about", "/powered-by", "/wechat", "/rss", "/github", "/icp"]
 
 [frontmatter]
 # Editorial update time: never derive it from repository maintenance.

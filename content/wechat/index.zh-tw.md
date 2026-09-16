@@ -13,10 +13,10 @@ build:
   list: local
 ---
 
-## Swaw 微信公眾號「何與生」
+## Swaw 微信公眾號「何與生」：
 
 {{< asset src="site/brand/wechat-official-account.gif" alt="Swaw 微信公眾號「何與生」QR Code" width="240" >}}
 
-## 「AI 駕駛艙」技術交流群
+## 「AI 駕駛艙」技術交流群：
 
 {{< asset src="site/brand/wecom-ex-group-ai-cockpit.gif" alt="「AI 駕駛艙」技術交流群 QR Code" width="240" >}}

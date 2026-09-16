@@ -32,63 +32,63 @@ source = "/zh-tw/p/wsl-automng/"
 destination = "/zh-tw/p/swaw-kit-wsl-release/"
 status = 301
 
-# Updates now owns the former PWA and site entry pages.
+# Powered by now owns the former PWA and site entry pages.
 [[rules]]
 source = "/pwa"
-destination = "/updates/check/"
+destination = "/powered-by/#pwa"
 status = 301
 
 [[rules]]
 source = "/pwa/"
-destination = "/updates/check/"
+destination = "/powered-by/#pwa"
 status = 301
 
 [[rules]]
 source = "/site"
-destination = "/updates/"
+destination = "/powered-by/"
 status = 301
 
 [[rules]]
 source = "/site/"
-destination = "/updates/"
+destination = "/powered-by/"
 status = 301
 
 [[rules]]
 source = "/zh/pwa"
-destination = "/zh/updates/check/"
+destination = "/zh/powered-by/#pwa"
 status = 301
 
 [[rules]]
 source = "/zh/pwa/"
-destination = "/zh/updates/check/"
+destination = "/zh/powered-by/#pwa"
 status = 301
 
 [[rules]]
 source = "/zh/site"
-destination = "/zh/updates/"
+destination = "/zh/powered-by/"
 status = 301
 
 [[rules]]
 source = "/zh/site/"
-destination = "/zh/updates/"
+destination = "/zh/powered-by/"
 status = 301
 
 [[rules]]
 source = "/zh-tw/pwa"
-destination = "/zh-tw/updates/check/"
+destination = "/zh-tw/powered-by/#pwa"
 status = 301
 
 [[rules]]
 source = "/zh-tw/pwa/"
-destination = "/zh-tw/updates/check/"
+destination = "/zh-tw/powered-by/#pwa"
 status = 301
 
 [[rules]]
 source = "/zh-tw/site"
-destination = "/zh-tw/updates/"
+destination = "/zh-tw/powered-by/"
 status = 301
 
 [[rules]]
 source = "/zh-tw/site/"
-destination = "/zh-tw/updates/"
+destination = "/zh-tw/powered-by/"
 status = 301

@@ -23,7 +23,7 @@ content, site identity, and editorial cleanup decisions.
 | --- | --- | --- | --- |
 | Home | `content/_index*.md` | Keep | Site landing copy and ordinary root entry. |
 | About | `content/about/index*.md` | Keep | Root entry for site identity; public `/about/` URLs preserved. |
-| Updates | `content/updates/`, `themes/banyan/content/updates/` | Keep | Root entry with real check and changelog children; changelog keeps public `/changelog/`. |
+| Powered by | `themes/banyan/content/powered-by/` | Keep | Technology overview, build metadata and inline PWA status and checks; change logs link to their upstream sources. |
 | WeChat | `content/wechat/index*.md` | Keep | Root contact handoff page; public `/wechat/` URLs preserved. |
 | GitHub | `content/github/index*.md` | Keep | Root page for the SwawHQ organization. |
 | RSS | `content/rss/index*.md` | Keep | Root page that resolves the current-language feed. |

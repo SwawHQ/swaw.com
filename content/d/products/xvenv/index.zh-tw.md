@@ -136,4 +136,4 @@ Xvenv 的核心價值不是「把所有東西都裝一遍」，而是把專案�
 
 它無法消除工具鏈本身的下載大小，也不會把專案設定變成唯讀；但它能把這些變更限制在清楚、可定位的範圍內。對需要獨自維護多種 Windows 開發技術棧的人而言，這比一句「零污染」更可靠。
 
-[檢視並下載 xvenv.cmd](https://github.com/swawai/swaw.com/blob/main/xvenv.cmd)
+[檢視並下載 xvenv.cmd](https://github.com/SwawHQ/swaw.com/blob/main/xvenv.cmd)

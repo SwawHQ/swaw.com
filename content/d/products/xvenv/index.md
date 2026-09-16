@@ -136,4 +136,4 @@ Xvenv's core value is not “install everything.” It is keeping a project's re
 
 It cannot eliminate the size of the toolchains, and it does not make project configuration read-only. What it can do is keep those changes within a clear, inspectable boundary. For someone maintaining several Windows development stacks alone, that is more dependable than a vague promise of “zero pollution.”
 
-[View and download xvenv.cmd](https://github.com/swawai/swaw.com/blob/main/xvenv.cmd)
+[View and download xvenv.cmd](https://github.com/SwawHQ/swaw.com/blob/main/xvenv.cmd)

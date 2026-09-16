@@ -13,10 +13,10 @@ build:
   list: local
 ---
 
-## Swaw WeChat Official Account "何与生"
+## Swaw WeChat Official Account "bornwhy":
 
 {{< asset src="site/brand/wechat-official-account.gif" alt="Swaw WeChat Official Account 何与生 QR code" width="240" >}}
 
-## "AI Cockpit" Technical Exchange Group
+## "AI Cockpit" Technical Exchange Group:
 
 {{< asset src="site/brand/wecom-ex-group-ai-cockpit.gif" alt="AI Cockpit technical exchange group QR code" width="240" >}}
