@@ -1,20 +1,15 @@
 ---
-root_nav: true
+date: 2026-09-08
 title: ICP備案
 linkTitle: "ICP备2024338434号"
-weight: 105
 description: 查看本站的 ICP 備案資訊。
-date: 2026-09-08
-slug: icp
-layout: page-article
-icon: { text: "粤" }
-outputs:
-  - HTML
-build:
-  list: local
-  publishResources: false
-slots:
-  breadcrumb: true
+url: icp/
+weight: 130
+layout: page-article-norss
+
+params:
+  icon: { text: "粤" }
+  slots: [breadcrumb]
 ---
 
 站點網域：**swaw.com**

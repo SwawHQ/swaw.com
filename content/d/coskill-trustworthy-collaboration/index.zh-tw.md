@@ -1,14 +1,12 @@
 ---
-date: "2026-06-12T17:56:53+08:00"
-lastmod: "2026-06-12T17:56:53+08:00"
-draft: false
 title: "人機協作的未來，Skills 一葉知秋"
 linkTitle: "CoSkill：人機協作的未來"
-slug: "coskill-trustworthy-collaboration"
+date: "2026-06-12T17:56:53+08:00"
+lastmod: "2026-06-12T17:56:53+08:00"
+
+draft: false
+url: p/coskill-trustworthy-collaboration/
 description: "從 Anthropic Skills 出發，提出 CoSkill：一種人類和 agent 都能使用的能力單元。"
-tags:
- - ai
- - tooling
 ---
 
 

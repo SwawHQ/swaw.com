@@ -1,15 +1,15 @@
 ---
-date: "2026-06-24T22:55:52+08:00"
-lastmod: "2026-06-24T22:55:52+08:00"
-draft: false
 title: "Loop Engineering：櫃檯小姐的一句邀請，數位生命的開局"
 linkTitle: "Loop Engineering：數位生命"
-slug: "loop-engineering-digital-life-origin"
+date: "2026-06-24T22:55:52+08:00"
+lastmod: "2026-06-24T22:55:52+08:00"
+
+draft: false
+url: p/loop-engineering-digital-life-origin/
 description: "一則寓言：數位生命或許不是從意識，而是從 Loop Engineering 開始；以網際網路為原始湯，成為某種在會計意義上能活下去的「殭屍網路」。"
-share_image: loop-engineering-digital-life-origin-zh-tw-share.png
-tags:
- - ai
- - tooling
+
+params:
+  share_image: loop-engineering-digital-life-origin-zh-tw-share.png
 ---
 
 ![數位生命始於 Loop：一個在會計意義上活得下去的殭屍網路](loop-engineering-digital-life-zh-tw-cover.png)

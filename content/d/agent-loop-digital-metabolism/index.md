@@ -1,15 +1,15 @@
 ---
-date: "2026-06-24T22:55:52+08:00"
-lastmod: "2026-06-24T22:55:52+08:00"
-draft: false
 title: "Loop Engineering: A Receptionist’s Request, and Digital Life Begins"
 linkTitle: "Loop Engineering: Digital Life"
-slug: "loop-engineering-digital-life-origin"
+date: "2026-06-24T22:55:52+08:00"
+lastmod: "2026-06-24T22:55:52+08:00"
+
+draft: false
+url: p/loop-engineering-digital-life-origin/
 description: "A fable about digital life beginning with Loop Engineering, not consciousness: the internet as primordial soup for a financially self-sustaining “botnet.”"
-share_image: loop-engineering-digital-life-origin-en-share.png
-tags:
- - ai
- - tooling
+
+params:
+  share_image: loop-engineering-digital-life-origin-en-share.png
 ---
 
 ![Digital life begins with a loop: a botnet that can keep itself financially alive](loop-engineering-digital-life-en-cover.png)

@@ -1,110 +1,65 @@
-# baseURL 莫擅改！会影响SEO
-baseURL = 'https://swaw.com/'
-languageCode = 'en-us'
-title = 'swaw'
-theme = "banyan"
-preserveTaxonomyNames = true
+# Swaw site.
+# Sites own their complete configuration. Use this file as a reference.
+baseURL = "https://swaw.com/"
+timeZone = "Asia/Shanghai"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+# Render assets/site/robots.txt.tmpl; false disables Hugo's robots.txt output.
 enableRobotsTXT = true
-timeZone = "Asia/Shanghai"
-
-enableGitInfo = true
 panicOnWarning = true
-
-[build]
+printPathWarnings = true
 # 禁止 Hugo js.Build 自动写入 assets/jsconfig.json；该文件只服务编辑器跳转，不参与站点构建。
-noJSConfigInAssets = true
-
-[cascade.build]
-# Page bundle resources should be published only through explicit theme pipelines.
-publishResources = false
-
-# Theme runtime defaults live in themes/banyan/hugo.toml. This root config keeps
-# swaw.com identity, Hugo structural declarations, and deployment-specific
-# overrides only.
-
-[params]
-description = "See What Affects What"
-
-[params.content_source]
-repository = "https://github.com/SwawHQ/swaw.com"
-branch = "main"
-content_root = "content"
-
-[params.prefetch_runtime]
-mode = "enable"
-
-[params.service_worker]
-mode = "enable"
-
-[params.sitemap]
-include_pages = ["/about", "/powered-by", "/wechat", "/rss", "/github", "/icp"]
-
-[frontmatter]
+build.noJSConfigInAssets = true
+# js.Build owns JS minification; preserve inline bytes used by CSP hashes.
+minify.disableJS = true
 # Editorial update time: never derive it from repository maintenance.
-lastmod = ["lastmod", "date"]
+frontmatter.lastmod = ["lastmod", "date"]
+taxonomies = {} # Disable Hugo's default tags and categories.
 
-[pagination]
-pagerSize = 30
-[taxonomies]
-tag = "tags"
-tool = "tools"
-# udc = "udc"
-# category = "categories"
-# author = "authors"
-#
-# ExampleSite ships a sample taxonomy bundle under:
-#   - content/tags/_index.<lang>.md => tags sample
-# Each taxonomy must define its own [banyan_taxonomy] in the root bundle.
-# Theme i18n and params.banyan.taxonomies.* are no longer taxonomy metadata sources.
-
+[[cascade]]
+# true: automatically publish page bundle resources, including unused files.
+# false: publish only resources whose Permalink, RelPermalink or Publish method is called.
+# Page HTML is controlled by build.render; static/ files are copied separately.
+build.publishResources = false
 
 [markup]
-[markup.highlight]
-noClasses = false
-style = "vs"
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = false
-[markup.minify]
-disableXML = true
+highlight.noClasses = false
+goldmark.renderer.unsafe = false
 
-# Output format definitions live in themes/banyan/hugo.toml. Root [outputs]
-# entries still opt the site into each generated output.
 [outputs]
 page     = ["HTML"]
 section  = ["HTML","RSS"]
-home     = ["HTML","RSS","LLMS"]
-taxonomy = ["HTML","RSS"]
-term     = ["HTML","RSS"]
+home     = ["HTML", "RSS", "LLMS"]
+
+[outputFormats]
+LLMS.mediaType = "text/plain"
+LLMS.baseName = "llms"
+LLMS.isPlainText = true
+LLMS.notAlternative = true
+
+[module]
+imports = [{ path = "github.com/SwawHQ/banyan/module" }]
+mounts = [{ source = "assets/i18n", target = "i18n" }]
 
 [languages]
-[languages.en]
-languageName = "English"
-weight = 1
-[languages.en.params]
-locale = "en_US"
-icon = { text = "EN" }
+en.label = "English"
+en.locale = "en-US"
+en.weight = 1
 
-[languages.zh]
-languageName = "中文"
-weight = 2
+zh.label = "中文"
+zh.locale = "zh-Hans"
+zh.weight = 2
 
-[languages.zh.params]
-locale = "zh_CN"
-icon = { text = "简" }
+zh-tw.label = "繁體"
+zh-tw.locale = "zh-Hant"
+zh-tw.weight = 3
 
-[languages.zh-tw]
-languageName = "繁體"
-weight = 3
 
-[languages.zh-tw.params]
-locale = "zh_TW"
-icon = { text = "繁" }
-
-[params.appearance]
-palette = "css/theme-monochrome.css"
-
-[permalinks]
-d = "/p/:slug/"
+# Banyan output format and parameters.
+[params]
+# Complete color-role file, relative to assets/. Select at build time.
+appearance.palette = "site/theme.css"
+# The largest width caps generated variants; smaller source images are not enlarged.
+media.responsive_images.widths = [768, 1200, 1600]
+content_source.repository = "https://github.com/SwawHQ/swaw.com"
+content_source.branch = "main"

@@ -1,20 +1,15 @@
 ---
-root_nav: true
+date: 2026-09-08
 title: ICP Filing
 linkTitle: "ICP备2024338434号"
-weight: 105
 description: View the site's ICP filing information.
-date: 2026-09-08
-slug: icp
-layout: page-article
-icon: { text: "粤" }
-outputs:
-  - HTML
-build:
-  list: local
-  publishResources: false
-slots:
-  breadcrumb: true
+url: icp/
+weight: 130
+layout: page-article-norss
+
+params:
+  icon: { text: "粤" }
+  slots: [breadcrumb]
 ---
 
 Site domain: **swaw.com**

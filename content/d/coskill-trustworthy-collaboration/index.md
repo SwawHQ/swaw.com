@@ -1,14 +1,12 @@
 ---
-date: "2026-06-12T17:56:53+08:00"
-lastmod: "2026-06-12T17:56:53+08:00"
-draft: false
 title: "The Future of Human-Agent Collaboration, Seen Through Skills"
 linkTitle: "CoSkill Collaboration"
-slug: "coskill-trustworthy-collaboration"
+date: "2026-06-12T17:56:53+08:00"
+lastmod: "2026-06-12T17:56:53+08:00"
+
+draft: false
+url: p/coskill-trustworthy-collaboration/
 description: "Starting from Anthropic Skills, this essay proposes CoSkill: a capability unit that both humans and agents can use."
-tags:
- - ai
- - tooling
 ---
 
 

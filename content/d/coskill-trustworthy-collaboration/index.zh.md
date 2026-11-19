@@ -1,17 +1,17 @@
 ---
-date: "2026-06-12T17:56:53+08:00"
-lastmod: "2026-06-12T17:56:53+08:00"
-draft: false
 title: "人机协作的未来，Skills 一叶知秋"
 linkTitle: "CoSkill：人机协作的未来"
-slug: "coskill-trustworthy-collaboration"
+date: "2026-06-12T17:56:53+08:00"
+lastmod: "2026-06-12T17:56:53+08:00"
+
+draft: false
+url: p/coskill-trustworthy-collaboration/
 description: "从 Anthropic Skills 出发，提出 CoSkill：一种人类和 agent 都能使用的能力单元。"
-published_links:
-  - label: 公众号
-    url: https://mp.weixin.qq.com/s/QaSxCRg-Vq9Pi02nTqGSog
-tags:
- - ai
- - tooling
+
+params:
+  published_links:
+    - label: 公众号
+      url: https://mp.weixin.qq.com/s/QaSxCRg-Vq9Pi02nTqGSog
 ---
 
 
