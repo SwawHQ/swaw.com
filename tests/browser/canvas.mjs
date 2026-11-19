@@ -118,7 +118,7 @@ export const canvasScenarios = [
             for(const [name,page] of [['article',articlePath],['collection','/zh/da/'],['system','/zh/powered-by/']]) {
                 const result=await checkCanvasLayout({...args,options:{page,widths:'390,1024,1440'}});
                 for(const state of result.cases) {
-                    assert.equal(state.rootCount,13,'The hidden discovery directory leaves thirteen visible root entries.');
+                    assert.equal(state.rootCount,14,'The hidden discovery directory leaves fourteen visible root entries.');
                     assert.ok(Math.abs(state.nav.width-225)<=1,'swaw.com uses 225-pixel navigation columns.');
                     if(state.prose)assert.ok(state.prose.width>=Math.min(350,state.viewport-32),'The site reading column must retain its minimum width.');
                     if(name==='article')assert.equal(state.columns.length,1,'Playbooks use one flat source column.');

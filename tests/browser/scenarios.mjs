@@ -75,6 +75,23 @@ export const scenarios = [
         }
         return {languages:3};
     }},
+    {id:'search-localized-results',kind:'single',serviceWorkers:'block',title:'Search Results Stay in the Selected Language',
+        async run({page,baseUrl}) {
+            for(const prefix of ['', '/zh', '/zh-tw']) {
+                await gotoAndWait(page,baseUrl+prefix+'/');
+                await page.locator('[data-root-href="'+prefix+'/search/"]').click();
+                const input=page.locator('[data-search-input]');
+                await input.fill('Git');
+                const results=page.locator('.search-result a');
+                await results.first().waitFor({state:'visible'});
+                const paths=await results.evaluateAll(links=>links.map(link=>link.pathname));
+                assert.ok(paths.every(result=>result.startsWith(prefix+'/p/')), 'Search uses the current language RSS articles.');
+                await input.fill('zzzxnonexistentterm');
+                await results.first().waitFor({state:'hidden'});
+            }
+            return {languages:3};
+        }
+    },
     ...canvasScenarios,
     ...preferenceAndUpdateScenarios,
     {

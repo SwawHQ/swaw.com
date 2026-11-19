@@ -59,6 +59,7 @@ disable 要求启用版和 `assets/site/delivery.toml` 中 `sw.mode="disable"` �
 - `browser/design.mjs`：截图与布局数据，供人工观察。
 - `*.test.mjs`：检查代码自身的故障用例及网址迁移约束。
 
+首页、我的、搜索排在可见根栏目之前，三个语言版本使用相同权重。搜索按各语言的首页 RSS 收录，正式构建同时生成 Pagefind 索引。
 可见根栏目按 `pr`、`pb`、`da` 排序，名称均带“全部”后缀。`d` 通过自身的
 `build.list: never` 隐藏根导航入口，保留页面渲染和文章元信息链接，不向正文继承。
 产品与实战分别放在 `content/pr/` 和

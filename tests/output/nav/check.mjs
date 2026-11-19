@@ -2,14 +2,14 @@ import assert from 'node:assert/strict';
 import {extractCanonicalHref} from '../../../.agents/skills/swaw-banyan/tasks/_shared/html/markup.mjs';
 import {prefixes,readPage,attr,has,hasClass,tags,blocks,classBlocks,one,text,icon,favicon} from '../_shared.mjs';
 
-const roots=['','my','pr','pb','da','language','appearance','rss','powered-by','wechat','github','icp','about'];
+const roots=['','my','search','pr','pb','da','language','appearance','rss','powered-by','wechat','github','icp','about'];
 const primaryRoots=['pr','pb','da','d'];
 const labels={
   '':['Products - All','Playbooks - All','Discover - All','Discover - Topics'],
   '/zh':['产品 - 全部','实战 - 全部','发现 - 全部','发现 - 分类'],
   '/zh-tw':['產品 - 全部','實戰 - 全部','發現 - 全部','發現 - 分類']
 };
-const icons={language:'#icon-language',appearance:'#icon-theme',my:'#icon-my',wechat:'#icon-wechat',github:'#icon-github',rss:'#icon-rss','powered-by':'#icon-code'};
+const icons={search:'#icon-search',language:'#icon-language',appearance:'#icon-theme',my:'#icon-my',wechat:'#icon-wechat',github:'#icon-github',rss:'#icon-rss','powered-by':'#icon-code'};
 const discoveryDescriptions={
   '':['Explore changes and possibilities in technology, human-AI collaboration, and work.','Browse all posts in one list.','Browse posts by topic.'],
   '/zh':['探索技术、人机协作与工作方式的变化和可能。','以完整列表浏览全部内容。','按主题分类浏览内容。'],
