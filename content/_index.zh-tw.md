@@ -1,7 +1,7 @@
 ---
 title: Swaw
 weight: 10
-description: "開發工具、分享實戰、整理資源，希望 AI 給人減負。"
+description: "開發工具、分享實戰，探索 AI 如何改變工作方式，希望 AI 給人減負。"
 layout: page-collection-wall-all
 
 params:

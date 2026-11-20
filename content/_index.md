@@ -1,7 +1,7 @@
 ---
 title: Swaw
 weight: 10
-description: "We build tools, share playbooks, and curate resources. We hope AI will lighten our load."
+description: "We build tools, share playbooks, and explore how AI is changing work. We hope AI will lighten our load."
 layout: page-collection-wall-all
 
 params:
