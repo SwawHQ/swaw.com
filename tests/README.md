@@ -68,7 +68,7 @@ disable 要求启用版和 `assets/site/delivery.toml` 中 `sw.mode="disable"` �
 `pr`、`pb`、`d` 使用 `page-collection-directory`，`da` 使用
 `page-collection-directory-all` 聚合 `/d`。以后需要跨目录收录时使用 `_map.toml`。
 `content-routing.test.mjs` 验证平铺栏目归属、隐藏目录的可访问性及现有正文网址与别名。
-导航来源和排序使用网址片段；文章本身的发布网址由 `url` 字段固定。首页使用 `page-collection-wall-all` 汇总 `/pb`，图片墙配置为 `size.width/height`、`details`、`scroll`；保留的首页艺术包位于 `content/_res/home-art/`；离线页位于 `content/_res/offline/`，保留已有发布网址。预取诊断通过短代码内嵌在 `content/powered-by/` 的折叠区，原 `/powered-by.debug/` 页面移除且不保留重定向。
+导航来源和排序使用网址片段；文章本身的发布网址由 `url` 字段固定。首页使用 `page-home`，仅显示根导航列；保留的首页艺术包位于 `content/_res/home-art/`；离线页位于 `content/_res/offline/`，保留已有发布网址。预取诊断通过短代码内嵌在 `content/powered-by/` 的折叠区，原 `/powered-by.debug/` 页面移除且不保留重定向。
 
 检查代码自身的故障用例：
 

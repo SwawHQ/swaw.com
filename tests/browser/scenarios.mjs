@@ -11,7 +11,6 @@ import {breadcrumbScenarios,breadcrumbCollectionPath} from './breadcrumb.mjs';
 import {check as checkFirstPaint} from '../../.agents/skills/swaw-banyan/tasks/check/browser/canvas/first-paint/check.mjs';
 import {paletteScenarios} from './palette.mjs';
 import {check as checkProse} from '../../.agents/skills/swaw-banyan/tasks/check/browser/prose/layout/check.mjs';
-import {check as checkHome} from '../../.agents/skills/swaw-banyan/tasks/check/browser/home/check.mjs';
 import {updatesNavigationScenarios} from './pwa/navigation.mjs';
 import path from 'node:path';
 
@@ -51,28 +50,23 @@ export const scenarios = [
     collectionBehaviorScenario,
     {id:'prose-scope-and-hover-contract',kind:'single',serviceWorkers:'block',title:'Prose Links, Lists, Quotes and Tables Keep Their Own Layout',run:args=>checkProse({...args,options:{page:'/zh/about/'}})},
     ...updatesNavigationScenarios,
-    {id:'home-shell-smoke',kind:'single',title:'Home Image Wall',async run(args) {
-        await checkHome(args);
-        const {page,baseUrl}=args;
+    {id:'home-shell-smoke',kind:'single',title:'Navigation-only Home',async run({page,baseUrl}) {
+        const errors=[];
+        page.on('pageerror',error=>errors.push(error.message));
+        page.on('response',response=>{
+            if(['script','stylesheet'].includes(response.request().resourceType()) && response.status()>=400) errors.push(response.url());
+        });
+        page.on('requestfailed',request=>{
+            if(['script','stylesheet'].includes(request.resourceType())) errors.push(request.url());
+        });
         for(const prefix of ['', '/zh', '/zh-tw']) {
-            await page.goto(baseUrl+prefix+'/',{waitUntil:'load'});
-            const wall=page.locator('[data-wall]');
-            await wall.waitFor({state:'visible'});
-            assert.equal(await wall.getAttribute('data-wall-layout'),'grid');
-            assert.equal(await wall.getAttribute('data-wall-width'),'300');
-            assert.equal(await wall.getAttribute('data-wall-height'),'125');
-            assert.equal(await wall.getAttribute('data-wall-details'),'title');
-            assert.equal(await wall.getAttribute('data-wall-scroll'),'horizontal');
-            assert.ok(await wall.locator('.wall-card').count()>0);
-            assert.ok(await wall.locator('.wall-cover img').count()>0);
-            const detail=wall.locator('.wall-detail').first();
-            await detail.click();
-            await page.waitForFunction(()=>document.querySelector('.wall-detail').getAttribute('aria-expanded')==='true');
-            assert.equal(await detail.getAttribute('aria-expanded'),'true');
-            await wall.locator('.wall-info:popover-open .wall-info-close').click();
-            await page.waitForFunction(()=>document.querySelector('.wall-detail').getAttribute('aria-expanded')==='false');
-            assert.equal(await detail.getAttribute('aria-expanded'),'false');
+            const response=await page.goto(baseUrl+prefix+'/',{waitUntil:'load'});
+            assert.ok(response.ok());
+            assert.ok((await page.title()).trim());
+            assert.ok(await page.locator('[data-root-navigation]').isVisible());
+            assert.equal((await page.locator('main').innerHTML()).trim(),'');
         }
+        assert.deepEqual(errors,[]);
         return {languages:3};
     }},
     {id:'search-localized-results',kind:'single',serviceWorkers:'block',title:'Search Results Stay in the Selected Language',
