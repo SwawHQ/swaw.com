@@ -1,12 +1,14 @@
 {
-  "buildCommand": "bun run build",
   "headers": [
     {
-      "source": "/*",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=900, must-revalidate"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'report-sample' 'sha256-12ZJZRcbjpg4UHev9k69bxv9YLEBcH8C9Lsj5FrP/jk=' 'sha256-c0rdDTswvxacTGz8GQZSJ3HTEytxL3s3foEzNpF+7ns=' 'sha256-FYCKoiJXwnDMp9jA/qTz742XStmZvExVbzVH64P6OuE=' 'sha256-qAnnDdVBBOOYj65l5hY+PmiY5MpiBiYAfacnRoRJ0KM=' 'sha256-t9UuHTRUB8kSR41rkEOonhwt/UixrxSMAd/4/pFTEo0=' 'sha256-Ybp4OdhnIyMQJ63ffVm17pzuunsIAiDn1caugRMLHfU='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
         },
         {
           "key": "Permissions-Policy",
@@ -27,111 +29,137 @@
         {
           "key": "X-Frame-Options",
           "value": "SAMEORIGIN"
-        },
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'report-sample' 'sha256-/FPPJRMHVVqH/WKaMuHoWFasEMQ27pxl56joLAzYtc0=' 'sha256-2humPfV0Icp0KWc+1H0tXVlmnF8jpEjCgTc2L4yeniQ=' 'sha256-Og/jBlQmjCTvYjcFML1VYC1yUfWpHk9Q7W+dR+hRLN0=' 'sha256-jCh5yHzzbQaOCzTl422iNDU/tOSBFJkUaxvnNiyBPzA=' 'sha256-mpeof6+b7uUjXdRA27CAKqx0Nl2mVcn7RTB2jTmtEVY='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
         }
-      ]
+      ],
+      "source": "/*"
     },
     {
-      "source": "/css/*",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
         }
-      ]
+      ],
+      "source": "/css/*"
     },
     {
-      "source": "/js/*",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
         }
-      ]
+      ],
+      "source": "/js/*"
     },
     {
-      "source": "/icon/*",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
         }
-      ]
+      ],
+      "source": "/site/*"
     },
     {
-      "source": "/site/pwa/*.webmanifest",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        },
         {
           "key": "Content-Type",
           "value": "application/manifest+json; charset=utf-8"
         }
-      ]
+      ],
+      "source": "/site/*.webmanifest"
     },
     {
-      "source": "/site/*",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
         }
-      ]
+      ],
+      "source": "/media/content/*"
     },
     {
-      "source": "/media/content/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/favicon.ico",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=86400, must-revalidate"
         }
-      ]
+      ],
+      "source": "/favicon.ico"
     },
     {
-      "source": "/favicon.svg",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400, must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/sw.js",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "no-cache, max-age=0, must-revalidate"
         }
-      ]
+      ],
+      "source": "/sw.js"
     },
     {
-      "source": "/*.xml",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, max-age=0, must-revalidate"
+        }
+      ],
+      "source": "/sw-version.json"
+    },
+    {
       "headers": [
         {
           "key": "Content-Security-Policy",
           "value": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; object-src 'none'; base-uri 'none'; frame-ancestors 'self'"
         }
-      ]
+      ],
+      "source": "/*.xml"
+    },
+    {
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        }
+      ],
+      "source": "/pagefind/*"
+    },
+    {
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'report-sample' 'sha256-12ZJZRcbjpg4UHev9k69bxv9YLEBcH8C9Lsj5FrP/jk=' 'sha256-c0rdDTswvxacTGz8GQZSJ3HTEytxL3s3foEzNpF+7ns=' 'sha256-FYCKoiJXwnDMp9jA/qTz742XStmZvExVbzVH64P6OuE=' 'sha256-qAnnDdVBBOOYj65l5hY+PmiY5MpiBiYAfacnRoRJ0KM=' 'sha256-t9UuHTRUB8kSR41rkEOonhwt/UixrxSMAd/4/pFTEo0=' 'sha256-Ybp4OdhnIyMQJ63ffVm17pzuunsIAiDn1caugRMLHfU='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
+        }
+      ],
+      "source": "/search/"
+    },
+    {
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'report-sample' 'sha256-12ZJZRcbjpg4UHev9k69bxv9YLEBcH8C9Lsj5FrP/jk=' 'sha256-c0rdDTswvxacTGz8GQZSJ3HTEytxL3s3foEzNpF+7ns=' 'sha256-FYCKoiJXwnDMp9jA/qTz742XStmZvExVbzVH64P6OuE=' 'sha256-qAnnDdVBBOOYj65l5hY+PmiY5MpiBiYAfacnRoRJ0KM=' 'sha256-t9UuHTRUB8kSR41rkEOonhwt/UixrxSMAd/4/pFTEo0=' 'sha256-Ybp4OdhnIyMQJ63ffVm17pzuunsIAiDn1caugRMLHfU='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
+        }
+      ],
+      "source": "/zh/search/"
+    },
+    {
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'report-sample' 'sha256-12ZJZRcbjpg4UHev9k69bxv9YLEBcH8C9Lsj5FrP/jk=' 'sha256-c0rdDTswvxacTGz8GQZSJ3HTEytxL3s3foEzNpF+7ns=' 'sha256-FYCKoiJXwnDMp9jA/qTz742XStmZvExVbzVH64P6OuE=' 'sha256-qAnnDdVBBOOYj65l5hY+PmiY5MpiBiYAfacnRoRJ0KM=' 'sha256-t9UuHTRUB8kSR41rkEOonhwt/UixrxSMAd/4/pFTEo0=' 'sha256-Ybp4OdhnIyMQJ63ffVm17pzuunsIAiDn1caugRMLHfU='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
+        }
+      ],
+      "source": "/zh-tw/search/"
+    },
+    {
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'report-sample' 'sha256-12ZJZRcbjpg4UHev9k69bxv9YLEBcH8C9Lsj5FrP/jk=' 'sha256-c0rdDTswvxacTGz8GQZSJ3HTEytxL3s3foEzNpF+7ns=' 'sha256-FYCKoiJXwnDMp9jA/qTz742XStmZvExVbzVH64P6OuE=' 'sha256-qAnnDdVBBOOYj65l5hY+PmiY5MpiBiYAfacnRoRJ0KM=' 'sha256-t9UuHTRUB8kSR41rkEOonhwt/UixrxSMAd/4/pFTEo0=' 'sha256-Ybp4OdhnIyMQJ63ffVm17pzuunsIAiDn1caugRMLHfU='; style-src 'self' 'report-sample'; img-src 'self' data:; connect-src 'self'; font-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
+        }
+      ],
+      "source": "/pagefind/pagefind-worker.js"
     }
   ],
-  "installCommand": "git submodule sync --recursive && git submodule update --init --recursive --force && bun install --frozen-lockfile",
-  "nodeVersion": "22.11.0",
-  "outputDirectory": "public",
   "redirects": [
     {
       "destination": "/p/swaw-kit-wsl-release/",
@@ -161,66 +189,6 @@
     {
       "destination": "/zh-tw/p/swaw-kit-wsl-release/",
       "source": "/zh-tw/p/wsl-automng/",
-      "statusCode": 301
-    },
-    {
-      "destination": "/updates/check/",
-      "source": "/pwa",
-      "statusCode": 301
-    },
-    {
-      "destination": "/updates/check/",
-      "source": "/pwa/",
-      "statusCode": 301
-    },
-    {
-      "destination": "/updates/",
-      "source": "/site",
-      "statusCode": 301
-    },
-    {
-      "destination": "/updates/",
-      "source": "/site/",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh/updates/check/",
-      "source": "/zh/pwa",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh/updates/check/",
-      "source": "/zh/pwa/",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh/updates/",
-      "source": "/zh/site",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh/updates/",
-      "source": "/zh/site/",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh-tw/updates/check/",
-      "source": "/zh-tw/pwa",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh-tw/updates/check/",
-      "source": "/zh-tw/pwa/",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh-tw/updates/",
-      "source": "/zh-tw/site",
-      "statusCode": 301
-    },
-    {
-      "destination": "/zh-tw/updates/",
-      "source": "/zh-tw/site/",
       "statusCode": 301
     }
   ]
