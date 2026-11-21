@@ -1,14 +1,14 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import path from 'node:path';
+import {parseToml} from '../../.agents/skills/swaw-banyan/tasks/_shared/parsers.mjs';
 import {check as checkRules} from '../../.agents/skills/swaw-banyan/tasks/check/browser/prefetch/rules/check.mjs';
 import {check as checkOverlap} from '../../.agents/skills/swaw-banyan/tasks/check/browser/prefetch/overlap/check.mjs';
 import {check as checkDebug} from '../../.agents/skills/swaw-banyan/tasks/check/browser/prefetch/debug/check.mjs';
 
 async function rulesAndOverlap(args,page) {
-  const pathname=new URL(page,'https://swban.invalid').pathname;
-  const html=await fs.readFile(path.join(args.primaryBuildDir,pathname.slice(1),'index.html'),'utf8');
-  const enabled=/\bid=(?:"site-speculation-rules"|'site-speculation-rules'|site-speculation-rules(?=[\s>]))/.test(html);
+  const config=await fs.readFile(new URL('../../assets/site/delivery.toml',import.meta.url),'utf8');
+  const enabled=parseToml(config).prefetch.enabled;
+  assert.equal(typeof enabled,'boolean','delivery.toml must define prefetch.enabled as a boolean.');
   const rules=await checkRules({...args,options:{page,expect:enabled?'inline':'off'}});
   if(!enabled)return {rules};
   const overlap=await checkOverlap({...args,options:{page}});return {rules,overlap};

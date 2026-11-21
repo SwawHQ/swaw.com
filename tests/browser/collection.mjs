@@ -7,7 +7,6 @@ import {breadcrumbArticlePath} from './breadcrumb.mjs';
 const nameColumnCases=[
   {id:'section-wide',page:'/zh/d/',width:1600},
   {id:'all-wide',page:'/zh/da/',width:1600},
-  {id:'directory-wide',page:'/zh/d/',width:1600},
   {id:'section-medium',page:'/zh/d/',width:1024},
   {id:'section-mobile',page:'/zh/d/',width:390,horizontalCanvas:true},
   {id:'products-wide',page:'/zh/pr/',width:1600},

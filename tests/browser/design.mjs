@@ -25,7 +25,7 @@ const DESIGN_AUDIT_PAGES = [
         id: 'home',
         path: '/',
         title: 'Home',
-        waitForSelector: '.slot-main'
+        waitForSelector: '[data-root-navigation]'
     },
     {
         id: 'tools',

@@ -77,10 +77,10 @@ export function inspectInformation(html,name,feedHref) {
 
 const feedURLs=xml=>blocks(xml,'item').map(item=>text(one(blocks(item.inner,'link'),'RSS article link').inner));
 
-export function inspectFeed(xml) {
+export function inspectFeed(xml,prefix) {
   assert.match(xml,/<rss\b/);assert.match(xml,/<item>/);
   for(const link of feedURLs(xml)) {
-    assert.doesNotMatch(new URL(link,'https://swaw.com/').pathname,/^\/(?:zh\/|zh-tw\/)?(?:about|wechat|rss|github|icp|powered-by|my)\//,'Information pages are excluded from feed articles.');
+    assert.ok(new URL(link).href.startsWith('https://swaw.com'+prefix+'/p/'),'Expected an article in the current language feed: '+link);
   }
 }
 
@@ -89,10 +89,9 @@ export async function check(directory) {
   for(const prefix of prefixes) {
     const home=await readPage(directory,prefix+'/');
     const feed=attr(one(tags(home,'link').filter(tag=>attr(tag,'rel')==='alternate'&&attr(tag,'type')==='application/rss+xml'),'Language RSS output'),'href');
-    const feedPath=decodeURIComponent(new URL(feed,extractCanonicalHref(home)).pathname).replace(/^\//,'');
-    assert.ok(feedPath&&!feedPath.split('/').includes('..'),'Feed must refer to a published path.');
-    const feedXML=await fs.readFile(path.join(directory,feedPath),'utf8');
-    inspectFeed(feedXML);
+    assert.equal(feed,prefix+'/index.xml','Homepage RSS link follows the current language.');
+    const feedXML=await fs.readFile(path.join(directory,feed.slice(1)),'utf8');
+    inspectFeed(feedXML,prefix);
     for(const name of ['powered-by','icp','about','wechat','github','rss']) {
       const html=await readPage(directory,prefix+'/'+name+'/');
       inspectInformation(html,name,feed);pages++;

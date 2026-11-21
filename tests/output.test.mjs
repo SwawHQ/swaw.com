@@ -50,9 +50,9 @@ test('information detects broken source links, filing text, tab isolation and fe
   assert.throws(()=>inspectInformation(subscriptions.replace('</pre>','</pre><a href="/zh/d/index.xml" target="_blank" rel="noopener noreferrer">Category feed</a>'),'rss','/zh/index.xml'),/links only to the all-articles feed/);
   const filing=await readPage(output,'/zh/icp/');
   assert.throws(()=>inspectInformation(filing.replaceAll('粤ICP备2024338434号','wrong filing'),'icp'),/Filing number/);
-  for(const page of ['about','powered-by','my'])
-    assert.throws(()=>inspectFeed('<rss><item><link>https://swaw.com/zh/'+page+'/</link></item></rss>'),/excluded from feed/);
-  inspectFeed('<rss><item><link>https://swaw.com/zh/p/guide/</link><description>&lt;a href="/zh/about/"&gt;About&lt;/a&gt;</description></item></rss>');
+  for(const route of ['/zh/about/','/zh/powered-by/','/zh/my/','/p/guide/','/zh-tw/p/guide/'])
+    assert.throws(()=>inspectFeed('<rss><item><link>https://swaw.com'+route+'</link></item></rss>','/zh'),/article in the current language feed/);
+  inspectFeed('<rss><item><link>https://swaw.com/zh/p/guide/</link><description>&lt;a href="/zh/about/"&gt;About&lt;/a&gt;</description></item></rss>','/zh');
 });
 test('metadata detects missing sample dates, wrong directory reference and a wrong aside label',async()=>{
   const html=await readPage(output,'/zh/p/swaw-kit-git/');

@@ -282,7 +282,7 @@ export const scenarios = [
         async run(args) {
             const result=await checkLanguageUpdate({...args,options:{dir:args.upgradePair?.fromDir,next:args.upgradePair?.toDir,page:'/language/',to:'zh'}});
             assert.equal(result.before.length,3,'This site publishes three language choices: '+JSON.stringify(result.before));
-            assert.equal(new URL(result.target).pathname,'/zh/language/','The site choice must open the Chinese language page: '+JSON.stringify(result));
+            assert.equal(new URL(result.target).pathname,'/zh/','Direct language selection must open the Chinese homepage.');
             return result;
         }
     }
