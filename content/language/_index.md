@@ -6,7 +6,6 @@ weight: 70
 
 params:
   labels:
-    back: "Back"
     missing_translation: "This page does not yet have a [{lang}] version.\nGo to the [{lang}] homepage?"
   icon: language
   language_icon: { text: "EN" }

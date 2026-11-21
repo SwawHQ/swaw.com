@@ -6,7 +6,6 @@ weight: 80
 
 params:
   labels:
-    back: "Back"
     auto: "Follow system"
     light: "Light"
     dark: "Dark"

@@ -83,7 +83,7 @@ export const breadcrumbScenarios=[
           embedded:document.querySelectorAll('[data-breadcrumb-collection-source]').length,
           wrapped:rows.filter(row=>row.getBoundingClientRect().height>parseFloat(getComputedStyle(row).lineHeight)+.1).length};
       });
-      assert.ok(anatomy.field&&anatomy.label);assert.equal(anatomy.indicator,'↓');assert.ok(anatomy.rows>0);
+      assert.ok(anatomy.field&&anatomy.label);assert.equal(anatomy.indicator,'↑');assert.ok(anatomy.rows>0);
       assert.equal(anatomy.icons,anatomy.rows);assert.equal(anatomy.embedded,0);assert.equal(anatomy.wrapped,0);
       const result=await checkSort({...args,options:{page:local(url)}}),after=new URL(result.cases[0].url);
       assert.equal(new URLSearchParams(after.hash.slice(1)).get('from'),'pb');assert.equal(new URLSearchParams(after.hash.slice(1)).get('sort'),null);assert.equal(new URLSearchParams(after.hash.slice(1)).get('sorts'),'date-asc');

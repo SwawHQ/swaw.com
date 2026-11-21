@@ -24,10 +24,10 @@ export const preferenceAndUpdateScenarios = [
             const {page,baseUrl} = args;
             const result = await checkAppearance({...args,options:{page:'/zh/appearance/',from:'/zh/da/#sorts=name-asc'}});
             // This site's colored Home logo is a consumer-owned requirement.
-            await gotoAndWait(page,baseUrl+'/zh/appearance/');
             for (const scheme of ['light','dark']) {
                 await page.emulateMedia({colorScheme:scheme});
                 for (const mode of ['light','dark','auto']) {
+                    await gotoAndWait(page,baseUrl+'/zh/appearance/');
                     await page.locator('.slot-main [data-theme-choice="'+mode+'"]').click();
                     await page.waitForFunction(theme=>document.documentElement.dataset.theme===theme,mode==='auto'?scheme:mode);
                     const icon = page.locator('[data-root-href="/zh/"] img.icon--image');

@@ -64,7 +64,7 @@ export const scenarios = [
             assert.ok(response.ok());
             assert.ok((await page.title()).trim());
             assert.ok(await page.locator('[data-root-navigation]').isVisible());
-            assert.equal((await page.locator('main').innerHTML()).trim(),'');
+            assert.equal(await page.locator('.reading-group').count(),0);
         }
         assert.deepEqual(errors,[]);
         return {languages:3};

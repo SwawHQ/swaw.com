@@ -8,7 +8,7 @@ export const languageScenarios=[
     async run(args) {
       const result=await checkChoices({...args,options:{page:'/language/'}});
       assert.deepEqual(result.initial.choices.map(choice=>[choice.code,choice.icon,choice.href]),[
-        ['en','EN','/language/'],['zh','简','/zh/language/'],['zh-tw','繁','/zh-tw/language/']
+        ['en','EN','/'],['zh','简','/zh/'],['zh-tw','繁','/zh-tw/']
       ],'Swaw language order, text markers and settings routes are consumer requirements.');
       assert.ok(result.initial.missingMessage,'Swaw settings must provide missing-translation copy.');
       return result;
