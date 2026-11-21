@@ -44,7 +44,7 @@ params:
       article: "文章"
 ---
 
-**{{< new-tab href="https://github.com/SwawHQ/banyan" >}}Swaw Banyan{{< /new-tab >}}**：{{< theme-version local="本機開發版" >}}
+**Swaw Banyan** {{< asset src="site/banyan.svg" alt="Banyan" class="icon icon--image md-inline-image" width="16" height="16" >}}：{{< new-tab href="https://github.com/SwawHQ/banyan" >}}{{< theme-version local="本機開發版" >}}{{< /new-tab >}}
 
 ### 附：PWA 快取資訊
 

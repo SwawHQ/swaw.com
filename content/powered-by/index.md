@@ -44,7 +44,7 @@ params:
       article: "Article"
 ---
 
-**{{< new-tab href="https://github.com/SwawHQ/banyan" >}}Swaw Banyan{{< /new-tab >}}**: {{< theme-version local="Local development" >}}
+**Swaw Banyan** {{< asset src="site/banyan.svg" alt="Banyan" class="icon icon--image md-inline-image" width="16" height="16" >}}: {{< new-tab href="https://github.com/SwawHQ/banyan" >}}{{< theme-version local="Local development" >}}{{< /new-tab >}}
 
 ### Appendix: PWA cache information
 
